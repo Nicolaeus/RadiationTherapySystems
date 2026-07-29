@@ -1,0 +1,478 @@
+/* ======================================================================
+   Radiotherapy Equipment Database
+   Forms
+   ====================================================================== */
+
+/* ======================================================================
+   FORM CONTAINER
+   ====================================================================== */
+
+.form-container {
+
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+
+}
+
+/* ======================================================================
+   FORM SECTION
+   ====================================================================== */
+
+.form-section {
+
+    background: white;
+
+    border: 1px solid var(--color-border);
+
+    border-radius: 12px;
+
+    overflow: hidden;
+
+}
+
+.form-section-header {
+
+    padding: 16px 22px;
+
+    background: #f8fafc;
+
+    border-bottom: 1px solid var(--color-border);
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+.form-section-title {
+
+    font-size: 18px;
+
+    font-weight: 600;
+
+}
+
+.form-section-body {
+
+    padding: 24px;
+
+}
+
+/* ======================================================================
+   FORM GRID
+   ====================================================================== */
+
+.form-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(2,1fr);
+
+    gap: 22px;
+
+}
+
+.form-field {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 6px;
+
+}
+
+.form-field.full {
+
+    grid-column: 1 / -1;
+
+}
+
+.form-field label {
+
+    font-size: 13px;
+
+    font-weight: 600;
+
+    color: var(--color-text);
+
+}
+
+/* ======================================================================
+   REQUIRED
+   ====================================================================== */
+
+.required::after {
+
+    content: " *";
+
+    color: var(--color-danger);
+
+}
+
+/* ======================================================================
+   INPUTS
+   ====================================================================== */
+
+.form-field input,
+.form-field select,
+.form-field textarea {
+
+    background: white;
+
+    border: 1px solid var(--color-border);
+
+    border-radius: 8px;
+
+    padding: 10px 12px;
+
+    font-size: 14px;
+
+}
+
+.form-field textarea {
+
+    min-height: 140px;
+
+}
+
+/* ======================================================================
+   HELP
+   ====================================================================== */
+
+.field-help {
+
+    font-size: 12px;
+
+    color: var(--color-text-light);
+
+}
+
+/* ======================================================================
+   CHECKBOX GRID
+   ====================================================================== */
+
+.checkbox-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fill,minmax(220px,1fr));
+
+    gap: 14px;
+
+}
+
+.checkbox-item {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    padding: 10px;
+
+    border: 1px solid var(--color-border);
+
+    border-radius: 8px;
+
+    background: #fafafa;
+
+}
+
+.checkbox-item:hover {
+
+    background: #f1f5f9;
+
+}
+
+.checkbox-item input {
+
+    width: 18px;
+
+    height: 18px;
+
+}
+
+/* ======================================================================
+   ARRAY EDITOR
+   ====================================================================== */
+
+.array-editor {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 12px;
+
+}
+
+.array-item {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+}
+
+.array-item input {
+
+    flex: 1;
+
+}
+
+.array-toolbar {
+
+    display: flex;
+
+    justify-content: flex-end;
+
+}
+
+.array-add {
+
+    padding: 8px 14px;
+
+}
+
+/* ======================================================================
+   OBJECT BLOCK
+   ====================================================================== */
+
+.object-editor {
+
+    border: 1px solid var(--color-border);
+
+    border-radius: 10px;
+
+    background: #fbfcfd;
+
+    padding: 18px;
+
+}
+
+/* ======================================================================
+   TOOLBAR
+   ====================================================================== */
+
+.editor-toolbar {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 26px;
+
+}
+
+.editor-actions {
+
+    display: flex;
+
+    gap: 10px;
+
+}
+
+/* ======================================================================
+   SAVE STATUS
+   ====================================================================== */
+
+.save-indicator {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    font-size: 13px;
+
+}
+
+.save-indicator.saved {
+
+    color: var(--color-success);
+
+}
+
+.save-indicator.modified {
+
+    color: var(--color-warning);
+
+}
+
+/* ======================================================================
+   JSON PREVIEW
+   ====================================================================== */
+
+.json-preview {
+
+    background: #1f2937;
+
+    color: #f8fafc;
+
+    border-radius: 10px;
+
+    padding: 20px;
+
+    font-family: Consolas, monospace;
+
+    font-size: 13px;
+
+    white-space: pre;
+
+    overflow: auto;
+
+}
+
+/* ======================================================================
+   TAG EDITOR
+   ====================================================================== */
+
+.tag-editor {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 8px;
+
+}
+
+.tag {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    padding: 6px 12px;
+
+    background: #dbeafe;
+
+    color: var(--color-primary);
+
+    border-radius: 18px;
+
+    font-size: 13px;
+
+}
+
+.tag-remove {
+
+    cursor: pointer;
+
+    font-weight: bold;
+
+}
+
+/* ======================================================================
+   INLINE BUTTONS
+   ====================================================================== */
+
+.btn-icon {
+
+    width: 36px;
+
+    height: 36px;
+
+    border-radius: 8px;
+
+    border: 1px solid var(--color-border);
+
+    background: white;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.btn-icon:hover {
+
+    background: #f1f5f9;
+
+}
+
+/* ======================================================================
+   VALIDATION
+   ====================================================================== */
+
+.field-valid {
+
+    border-color: var(--color-success) !important;
+
+}
+
+.field-invalid {
+
+    border-color: var(--color-danger) !important;
+
+    background: #fff5f5;
+
+}
+
+.validation-message {
+
+    color: var(--color-danger);
+
+    font-size: 12px;
+
+}
+
+/* ======================================================================
+   STICKY ACTION BAR
+   ====================================================================== */
+
+.editor-footer {
+
+    position: sticky;
+
+    bottom: 0;
+
+    background: white;
+
+    border-top: 1px solid var(--color-border);
+
+    padding: 18px;
+
+    display: flex;
+
+    justify-content: flex-end;
+
+    gap: 12px;
+
+    z-index: 20;
+
+}
+
+/* ======================================================================
+   RESPONSIVE
+   ====================================================================== */
+
+@media (max-width:900px){
+
+    .form-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .checkbox-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}

@@ -1,0 +1,279 @@
+[
+    {
+        "id": "MEVION_S250",
+        "manufacturer": "Mevion Medical Systems",
+        "manufacturer_country": "United States",
+        "model": "S250",
+        "aliases": [
+            "MEVION S250"
+        ],
+        "family": "S250",
+        "series": "",
+        "generation": "1",
+        "machine_type": "Compact Single-Room Proton Therapy System",
+        "technology": {
+            "type": "PROTON",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": true,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Passive Scattering",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": true,
+            "kv": true,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": false,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": true,
+            "adaptive": false,
+            "gating": true,
+            "tracking": false
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2013,
+        "installation_end": 2015,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "S250i",
+        "notes": "Premier système compact de protonthérapie à cyclotron supraconducteur monté directement sur le bras rotatif."
+    },
+    {
+        "id": "MEVION_S250I",
+        "manufacturer": "Mevion Medical Systems",
+        "manufacturer_country": "United States",
+        "model": "S250i",
+        "aliases": [
+            "MEVION S250i"
+        ],
+        "family": "S250",
+        "series": "i",
+        "generation": "2",
+        "machine_type": "Compact Single-Room Proton Therapy System",
+        "technology": {
+            "type": "PROTON",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": true,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "Adaptive Aperture",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Pencil Beam Scanning",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": true,
+            "kv": true,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": true,
+            "adaptive": false,
+            "gating": true,
+            "tracking": true
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2016,
+        "installation_end": null,
+        "production_status": "In Production",
+        "support_status": null,
+        "successor": "S250-FIT",
+        "notes": "Ajout du HYPERSCAN Pencil Beam Scanning et de l'Adaptive Aperture permettant l'IMPT."
+    },
+    {
+        "id": "MEVION_S250MX",
+        "manufacturer": "Mevion Medical Systems",
+        "manufacturer_country": "United States",
+        "model": "S250mx",
+        "aliases": [
+            "MEVION S250mx"
+        ],
+        "family": "S250",
+        "series": "mx",
+        "generation": "2",
+        "machine_type": "Multi-Room Proton Therapy System",
+        "technology": {
+            "type": "PROTON",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": true,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "Adaptive Aperture",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Pencil Beam Scanning",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": true,
+            "kv": true,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": true,
+            "adaptive": false,
+            "gating": true,
+            "tracking": true
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2015,
+        "installation_end": null,
+        "production_status": "In Production",
+        "support_status": null,
+        "successor": "",
+        "notes": "Version multi-salles de la plateforme S250 destinée aux centres à plusieurs salles de traitement."
+    },
+    {
+        "id": "MEVION_S250_FIT",
+        "manufacturer": "Mevion Medical Systems",
+        "manufacturer_country": "United States",
+        "model": "S250-FIT",
+        "aliases": [
+            "MEVION S250-FIT",
+            "S250 FIT"
+        ],
+        "family": "S250",
+        "series": "FIT",
+        "generation": "3",
+        "machine_type": "Compact Single-Room Proton Therapy System",
+        "technology": {
+            "type": "PROTON",
+            "c_arm": false,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": true,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "Adaptive Aperture Proton MLC",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Pencil Beam Scanning",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": true,
+            "adaptive": true,
+            "gating": true,
+            "tracking": true
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2025,
+        "installation_end": null,
+        "production_status": "In Production",
+        "support_status": null,
+        "successor": "",
+        "notes": "Dernière génération de la plateforme S250. Conçue pour être installée dans un bunker de LINAC standard. Intègre HYPERSCAN Pencil Beam Scanning, Adaptive Aperture proton MLC, CT diagnostique grand diamètre à l'isocentre et est conçue pour supporter DirectARC ainsi que des workflows adaptatifs. Les fonctionnalités FLASH et DirectARC ne sont pas encore disponibles en utilisation clinique."
+    }
+]

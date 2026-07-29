@@ -1,0 +1,31 @@
+{
+    "manufacturers": [
+        "ACCURAY.json",
+        "CGN_MEDICAL_TECHNOLOGY.json",
+        "ELEKTA.json",
+        "HITACHI.json",
+        "IBA.json",
+        "INTRAOP.json",
+        "LEO_CANCER_CARE.json",
+        "MAGNETTX.json",
+        "MEVION_MEDICAL_SYSTEMS.json",
+        "MITSUBISHI_ELECTRIC.json",
+        "NEUSOFT_MEDICAL.json",
+        "OPTIVUS_PROTON_THERAPY.json",
+        "PANACEA_MEDICAL_TECHNOLOGIES.json",
+        "PCURE.json",
+        "PROTOM.json",
+        "SHINVA_MEDICAL.json",
+        "SIEMENS.json",
+        "SORDINA_IORT_TECHNOLOGIES.json",
+        "SUMIMOTO_HEAVY_INDUSTRIES.json",
+        "THERATRON.json",
+        "THERYQ.json",
+        "TOSHIBA.json",
+        "UNITED_IMAGING.json",
+        "VARIAN.json",
+        "VARIAN_PROTON.json",
+        "VIEWRAY.json",
+        "ZAPSURGICAL.json"
+    ]
+}

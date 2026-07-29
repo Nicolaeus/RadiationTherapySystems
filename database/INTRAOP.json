@@ -1,0 +1,150 @@
+[
+    {
+        "id": "INTRAOP_MOBETRON",
+        "manufacturer": "IntraOp Medical",
+        "manufacturer_country": "United States",
+        "model": "Mobetron",
+        "aliases": [
+            "Mobetron",
+            "Mobile Mobetron"
+        ],
+        "family": "Mobetron",
+        "series": "",
+        "generation": "1",
+        "machine_type": "Mobile Intraoperative Electron LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [],
+            "electron_energies": [
+                "4E",
+                "6E",
+                "9E",
+                "12E"
+            ],
+            "flattening_filter": false,
+            "fff": true,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Applicators",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": false,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": false,
+        "installation_start": 1997,
+        "installation_end": 2012,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "Mobetron 2000",
+        "notes": "Premier accélérateur linéaire mobile dédié à la radiothérapie peropératoire (IORT)."
+    },
+    {
+        "id": "INTRAOP_MOBETRON_2000",
+        "manufacturer": "IntraOp Medical",
+        "manufacturer_country": "United States",
+        "model": "Mobetron 2000",
+        "aliases": [
+            "Mobetron 2000"
+        ],
+        "family": "Mobetron",
+        "series": "2000",
+        "generation": "2",
+        "machine_type": "Mobile Intraoperative Electron LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [],
+            "electron_energies": [
+                "6E",
+                "9E",
+                "12E"
+            ],
+            "flattening_filter": false,
+            "fff": true,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Applicators",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": false,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": true,
+        "installation_start": 2012,
+        "installation_end": null,
+        "production_status": "In Production",
+        "support_status": null,
+        "successor": "",
+        "notes": "Deuxième génération du Mobetron avec modulateur intégré, alimentation monophasée et architecture allégée. Compatible avec les évolutions HDR, UHDR et FLASH-IQ."
+    }
+]

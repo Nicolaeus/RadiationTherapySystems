@@ -1,0 +1,140 @@
+[
+    {
+        "id": "SHI_PROTON",
+        "manufacturer": "Sumitomo Heavy Industries",
+        "manufacturer_country": "Japan",
+        "model": "Proton Therapy System",
+        "aliases": [
+            "SHI Proton Therapy System"
+        ],
+        "family": "Proton Therapy",
+        "series": "",
+        "generation": "1",
+        "machine_type": "Multi-Room Proton Therapy System",
+        "technology": {
+            "type": "PROTON",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": true,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Passive Scattering",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": true,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": false,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": true,
+            "tracking": false
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2003,
+        "installation_end": 2012,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "Compact Proton Therapy System",
+        "notes": "Première plateforme clinique SHI basée sur un cyclotron supraconducteur avec diffusion passive."
+    },
+    {
+        "id": "SHI_COMPACT_PROTON",
+        "manufacturer": "Sumitomo Heavy Industries",
+        "manufacturer_country": "Japan",
+        "model": "Compact Proton Therapy System",
+        "aliases": [
+            "Compact Proton Therapy System"
+        ],
+        "family": "Proton Therapy",
+        "series": "Compact",
+        "generation": "2",
+        "machine_type": "Compact Multi-Room Proton Therapy System",
+        "technology": {
+            "type": "PROTON",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": true,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Pencil Beam Scanning / Passive Scattering",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": true,
+            "kv": true,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": true,
+            "adaptive": false,
+            "gating": true,
+            "tracking": true
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2012,
+        "installation_end": null,
+        "production_status": "In Production",
+        "support_status": null,
+        "successor": "Advanced Proton Therapy System",
+        "notes": "Deuxième génération SHI avec Pencil Beam Scanning, CBCT et architecture compacte destinée à réduire les coûts d'installation."
+    }
+]

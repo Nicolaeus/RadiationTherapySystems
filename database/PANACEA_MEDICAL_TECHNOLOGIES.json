@@ -1,0 +1,294 @@
+[
+    {
+        "id": "PANACEA_BHABHATRON_II",
+        "manufacturer": "Panacea Medical Technologies",
+        "manufacturer_country": "India",
+        "model": "Bhabhatron II",
+        "aliases": [
+            "Bhabhatron II",
+            "Bhabhatron-II"
+        ],
+        "family": "Bhabhatron",
+        "series": "II",
+        "generation": "2",
+        "machine_type": "Telecobalt Unit",
+        "technology": {
+            "type": "COBALT60",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "Co-60"
+            ],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": true
+        },
+        "jaw": {
+            "type": "Secondary jaws",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": false,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": true,
+        "installation_start": 2006,
+        "installation_end": null,
+        "production_status": "In Production",
+        "support_status": null,
+        "successor": "",
+        "notes": "Télécobalt moderne développé en Inde."
+    },
+    {
+        "id": "PANACEA_BHABHATRON_II_TAW",
+        "manufacturer": "Panacea Medical Technologies",
+        "manufacturer_country": "India",
+        "model": "Bhabhatron II TAW",
+        "aliases": [
+            "Bhabhatron II TAW"
+        ],
+        "family": "Bhabhatron",
+        "series": "II TAW",
+        "generation": "2",
+        "machine_type": "Telecobalt Unit",
+        "technology": {
+            "type": "COBALT60",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "Co-60"
+            ],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": true
+        },
+        "jaw": {
+            "type": "Secondary jaws",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": false,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": true,
+        "installation_start": 2012,
+        "installation_end": null,
+        "production_status": "In Production",
+        "support_status": null,
+        "successor": "",
+        "notes": "Version améliorée du Bhabhatron II."
+    },
+    {
+        "id": "PANACEA_SIDDHARTH_II",
+        "manufacturer": "Panacea Medical Technologies",
+        "manufacturer_country": "India",
+        "model": "Siddharth II",
+        "aliases": [
+            "Siddharth II"
+        ],
+        "family": "Siddharth",
+        "series": "II",
+        "generation": "2",
+        "machine_type": "C-arm LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6X",
+                "15X"
+            ],
+            "electron_energies": [
+                "6E",
+                "9E",
+                "12E",
+                "15E",
+                "18E"
+            ],
+            "flattening_filter": true,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": 600,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "MLC",
+            "leaves": 80,
+            "leaf_width_mm": 10,
+            "optional": true
+        },
+        "jaw": {
+            "type": "Secondary jaws",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": true,
+            "kv": true,
+            "mv": true,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": true,
+            "srs": true,
+            "srt": true,
+            "sbrt": true,
+            "adaptive": false,
+            "gating": true,
+            "tracking": false
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2015,
+        "installation_end": null,
+        "production_status": "In Production",
+        "support_status": null,
+        "successor": "Siddharth III",
+        "notes": "Accélérateur linéaire de radiothérapie développé par Panacea."
+    },
+    {
+        "id": "PANACEA_SIDDHARTH_III",
+        "manufacturer": "Panacea Medical Technologies",
+        "manufacturer_country": "India",
+        "model": "Siddharth III",
+        "aliases": [
+            "Siddharth III"
+        ],
+        "family": "Siddharth",
+        "series": "III",
+        "generation": "3",
+        "machine_type": "Image-guided LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6FFF"
+            ],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": true,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": 1400
+            }
+        },
+        "mlc": {
+            "model": "High Definition MLC",
+            "leaves": 160,
+            "leaf_width_mm": 5,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Secondary jaws",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": true,
+            "kv": true,
+            "mv": false,
+            "surface_guidance": true
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": true,
+            "srs": true,
+            "srt": true,
+            "sbrt": true,
+            "adaptive": false,
+            "gating": true,
+            "tracking": false
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2022,
+        "installation_end": null,
+        "production_status": "In Production",
+        "support_status": null,
+        "successor": "",
+        "notes": "Dernière génération de LINAC Panacea."
+    }
+]

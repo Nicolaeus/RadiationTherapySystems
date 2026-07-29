@@ -1,0 +1,1270 @@
+/* ==========================================================================
+   Machine Viewer V2
+   Part 1
+   Layout + Summary
+   ========================================================================== */
+
+:root {
+
+    --viewer-bg: #f4f7fb;
+
+    --card-bg: #ffffff;
+
+    --card-border: #dbe4ee;
+
+    --card-shadow:
+        0 2px 6px rgba(15,23,42,.05);
+
+    --text-main: #0f172a;
+
+    --text-secondary: #64748b;
+
+    --text-light: #94a3b8;
+
+    --primary: #2563eb;
+
+    --success: #16a34a;
+
+    --warning: #d97706;
+
+    --danger: #dc2626;
+
+    --radius: 14px;
+
+    --gap: 16px;
+
+}
+
+
+/* ==========================================================================
+   Viewer
+   ========================================================================== */
+
+.machine-layout-v2{
+
+    display:grid;
+
+    grid-template-columns:320px 1fr;
+
+    gap:20px;
+
+    width:100%;
+
+    height:calc(100vh - 90px);
+
+    padding:20px;
+
+    box-sizing:border-box;
+
+    background:var(--viewer-bg);
+
+    overflow:hidden;
+
+}
+
+
+/* ==========================================================================
+   Left summary
+   ========================================================================== */
+
+.machine-summary-v2{
+
+    display:flex;
+
+    flex-direction:column;
+
+    background:var(--card-bg);
+
+    border:1px solid var(--card-border);
+
+    border-radius:18px;
+
+    box-shadow:var(--card-shadow);
+
+    overflow:hidden;
+
+}
+
+
+/* ==========================================================================
+   Summary card
+   ========================================================================== */
+
+.summary-card{
+
+    display:flex;
+
+    flex-direction:column;
+
+    height:100%;
+
+}
+
+
+/* ==========================================================================
+   Photo
+   ========================================================================== */
+
+.summary-photo{
+
+    height:260px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    background:#eef3f9;
+
+    border-bottom:1px solid var(--card-border);
+
+}
+
+.summary-photo img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:contain;
+
+}
+
+
+/* ==========================================================================
+   Identity
+   ========================================================================== */
+
+.summary-identity{
+
+    padding:20px;
+
+    text-align:center;
+
+}
+
+.machine-name{
+
+    margin:0;
+
+    font-size:1.8rem;
+
+    font-weight:700;
+
+    color:var(--text-main);
+
+}
+
+.machine-manufacturer{
+
+    margin-top:6px;
+
+    font-size:1rem;
+
+    color:var(--primary);
+
+    font-weight:600;
+
+}
+
+.machine-country{
+
+    margin-top:4px;
+
+    color:var(--text-secondary);
+
+    font-size:.9rem;
+
+}
+
+
+/* ==========================================================================
+   Badges
+   ========================================================================== */
+
+.summary-badges{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+    gap:8px;
+
+    padding:0 20px 18px;
+
+}
+
+
+/* ==========================================================================
+   Sections
+   ========================================================================== */
+
+.summary-section{
+
+    padding:16px 20px;
+
+    border-top:1px solid #edf2f7;
+
+}
+
+.summary-label{
+
+    font-size:.72rem;
+
+    text-transform:uppercase;
+
+    letter-spacing:.08em;
+
+    color:var(--text-light);
+
+    margin-bottom:6px;
+
+    font-weight:600;
+
+}
+
+.summary-value{
+
+    color:var(--text-main);
+
+    font-size:.95rem;
+
+    font-weight:600;
+
+}
+
+
+/* ==========================================================================
+   Timeline
+   ========================================================================== */
+
+.summary-timeline{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    font-weight:600;
+
+    color:var(--text-main);
+
+}
+
+.timeline-line{
+
+    flex:1;
+
+    height:4px;
+
+    border-radius:999px;
+
+    background:linear-gradient(
+        to right,
+        #2563eb,
+        #60a5fa
+    );
+
+}
+
+
+/* ==========================================================================
+   Right content
+   ========================================================================== */
+
+.machine-content-v2{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,minmax(320px,1fr));
+
+    grid-template-rows:repeat(3,minmax(180px,1fr));
+
+    gap:18px;
+
+    overflow:hidden;
+
+}
+
+
+/* ==========================================================================
+   Generic cards
+   ========================================================================== */
+
+.info-card-v2{
+
+    display:flex;
+
+    flex-direction:column;
+
+    height:100%;
+
+    background:var(--card-bg);
+
+    border:1px solid var(--card-border);
+
+    border-radius:16px;
+
+    box-shadow:var(--card-shadow);
+
+    overflow:hidden;
+
+}
+
+
+.info-card-header{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    padding:14px 18px;
+
+    border-bottom:1px solid #edf2f7;
+
+    background:#fafcff;
+
+}
+
+
+.card-icon{
+
+    font-size:1.15rem;
+
+}
+
+
+.card-title{
+
+    font-size:1rem;
+
+    font-weight:700;
+
+    color:var(--text-main);
+
+}
+
+
+.info-card-body{
+
+    flex:1;
+
+    padding:18px;
+
+    overflow:auto;
+
+}
+
+
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
+
+@media (max-width:1600px){
+
+    .machine-layout-v2{
+
+        grid-template-columns:280px 1fr;
+
+    }
+
+}
+
+
+@media (max-width:1350px){
+
+    .machine-layout-v2{
+
+        grid-template-columns:1fr;
+
+        overflow:auto;
+
+    }
+
+    .machine-content-v2{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+/* ==========================================================================
+   Machine Viewer V2
+   Part 2
+   Cards
+   ========================================================================== */
+
+
+/* ==========================================================================
+   Generic Grid
+   ========================================================================== */
+
+.info-grid,
+.beam-grid,
+.mlc-grid,
+.imaging-grid{
+
+    display:grid;
+
+    gap:12px;
+
+}
+
+
+/* ==========================================================================
+   Generic Item
+   ========================================================================== */
+
+.info-item,
+.beam-item,
+.mlc-item,
+.imaging-item{
+
+    display:grid;
+
+    grid-template-columns:140px 1fr;
+
+    align-items:center;
+
+    gap:12px;
+
+    min-height:34px;
+
+    padding:4px 0;
+
+    border-bottom:1px solid #f1f5f9;
+
+}
+
+.info-item:last-child,
+.beam-item:last-child,
+.mlc-item:last-child,
+.imaging-item:last-child{
+
+    border-bottom:none;
+
+}
+
+
+/* ==========================================================================
+   Labels
+   ========================================================================== */
+
+.info-label,
+.beam-label,
+.mlc-label,
+.imaging-label{
+
+    font-size:.82rem;
+
+    color:var(--text-secondary);
+
+    font-weight:600;
+
+}
+
+
+/* ==========================================================================
+   Values
+   ========================================================================== */
+
+.info-value,
+.beam-value,
+.mlc-value{
+
+    color:var(--text-main);
+
+    font-size:.90rem;
+
+    font-weight:600;
+
+}
+
+
+/* ==========================================================================
+   Imaging
+   ========================================================================== */
+
+.imaging-item{
+
+    grid-template-columns:1fr auto;
+
+}
+
+.imaging-label{
+
+    color:var(--text-main);
+
+}
+
+.imaging-item .badge{
+
+    justify-self:end;
+
+}
+
+
+/* ==========================================================================
+   Beam Tags
+   ========================================================================== */
+
+.beam-values{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:6px;
+
+}
+
+
+/* ==========================================================================
+   Generic Tags
+   ========================================================================== */
+
+.tag,
+.beam-tag{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:4px 10px;
+
+    border-radius:999px;
+
+    background:#eff6ff;
+
+    border:1px solid #bfdbfe;
+
+    color:#1d4ed8;
+
+    font-size:.78rem;
+
+    font-weight:600;
+
+}
+
+
+/* ==========================================================================
+   Numeric values
+   ========================================================================== */
+
+.unit{
+
+    color:var(--text-secondary);
+
+    font-size:.78rem;
+
+    margin-left:4px;
+
+}
+
+
+/* ==========================================================================
+   MLC
+   ========================================================================== */
+
+.mlc-value{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+}
+
+
+/* ==========================================================================
+   Highlight values
+   ========================================================================== */
+
+.highlight{
+
+    color:var(--primary);
+
+    font-weight:700;
+
+}
+
+
+/* ==========================================================================
+   Small secondary text
+   ========================================================================== */
+
+.small{
+
+    font-size:.78rem;
+
+    color:var(--text-light);
+
+}
+
+
+/* ==========================================================================
+   Lists
+   ========================================================================== */
+
+.inline-list{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:6px;
+
+}
+
+
+/* ==========================================================================
+   Empty values
+   ========================================================================== */
+
+.empty-value{
+
+    color:#cbd5e1;
+
+    font-style:italic;
+
+}
+
+
+/* ==========================================================================
+   Hover
+   ========================================================================== */
+
+.info-item:hover,
+.beam-item:hover,
+.mlc-item:hover,
+.imaging-item:hover{
+
+    background:#fafcff;
+
+    transition:.15s ease;
+
+}
+
+
+/* ==========================================================================
+   Scrollbar
+   ========================================================================== */
+
+.info-card-body::-webkit-scrollbar{
+
+    width:6px;
+
+}
+
+.info-card-body::-webkit-scrollbar-thumb{
+
+    background:#d1d5db;
+
+    border-radius:999px;
+
+}
+
+.info-card-body::-webkit-scrollbar-track{
+
+    background:transparent;
+
+}
+
+
+/* ==========================================================================
+   Compact mode
+   ========================================================================== */
+
+@media (max-height:950px){
+
+    .info-card-body{
+
+        padding:14px;
+
+    }
+
+    .info-item,
+    .beam-item,
+    .mlc-item,
+    .imaging-item{
+
+        min-height:28px;
+
+        gap:8px;
+
+    }
+
+    .info-label,
+    .beam-label,
+    .mlc-label,
+    .imaging-label{
+
+        font-size:.78rem;
+
+    }
+
+    .info-value,
+    .beam-value,
+    .mlc-value{
+
+        font-size:.84rem;
+
+    }
+
+    .beam-tag,
+    .tag{
+
+        padding:3px 8px;
+
+        font-size:.72rem;
+
+    }
+
+}
+
+/* ==========================================================================
+   Machine Viewer V2
+   Part 3
+   Badges - Techniques - Notes - Finish
+   ========================================================================== */
+
+
+/* ==========================================================================
+   BADGES
+   ========================================================================== */
+
+.badge{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:5px 12px;
+
+    border-radius:999px;
+
+    font-size:.74rem;
+
+    font-weight:600;
+
+    line-height:1;
+
+    white-space:nowrap;
+
+    user-select:none;
+
+}
+
+
+/* Generic */
+
+.badge-default{
+
+    background:#eef2ff;
+
+    color:#334155;
+
+}
+
+
+/* Success */
+
+.badge-success{
+
+    background:#dcfce7;
+
+    color:#166534;
+
+}
+
+
+/* Danger */
+
+.badge-danger{
+
+    background:#fee2e2;
+
+    color:#991b1b;
+
+}
+
+
+/* Warning */
+
+.badge-warning{
+
+    background:#fef3c7;
+
+    color:#92400e;
+
+}
+
+
+/* Unknown */
+
+.badge-unknown{
+
+    background:#f1f5f9;
+
+    color:#64748b;
+
+}
+
+
+/* Disabled */
+
+.badge-muted{
+
+    background:#f8fafc;
+
+    color:#94a3b8;
+
+}
+
+
+/* Production */
+
+.badge-production{
+
+    background:#dcfce7;
+
+    color:#166534;
+
+}
+
+
+/* Support */
+
+.badge-support{
+
+    background:#dbeafe;
+
+    color:#1d4ed8;
+
+}
+
+
+/* Tag */
+
+.badge-tag{
+
+    background:#eff6ff;
+
+    color:#2563eb;
+
+}
+
+
+/* Manufacturer */
+
+.badge-manufacturer{
+
+    background:#eef2ff;
+
+    color:#3730a3;
+
+}
+
+
+/* Country */
+
+.badge-country{
+
+    background:#ecfeff;
+
+    color:#155e75;
+
+}
+
+
+/* Validation */
+
+.badge-validation{
+
+    background:#f0fdf4;
+
+    color:#166534;
+
+}
+
+
+/* ==========================================================================
+   TECHNIQUES
+   ========================================================================== */
+
+.techniques-grid{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:8px;
+
+}
+
+
+/* Enabled */
+
+.technique-enabled{
+
+    background:#dbeafe;
+
+    color:#1d4ed8;
+
+}
+
+
+/* Disabled */
+
+.technique-disabled{
+
+    background:#f8fafc;
+
+    color:#94a3b8;
+
+}
+
+
+/* Unknown */
+
+.technique-unknown{
+
+    background:#fef3c7;
+
+    color:#92400e;
+
+}
+
+
+/* Families */
+
+.technique-stereo{
+
+    background:#ffedd5;
+
+    color:#c2410c;
+
+}
+
+.technique-guidance{
+
+    background:#dcfce7;
+
+    color:#166534;
+
+}
+
+.technique-adaptive{
+
+    background:#ede9fe;
+
+    color:#6d28d9;
+
+}
+
+.technique-special{
+
+    background:#f3f4f6;
+
+    color:#374151;
+
+}
+
+
+/* ==========================================================================
+   NOTES
+   ========================================================================== */
+
+.notes-container{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+}
+
+
+.notes-section{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:8px;
+
+}
+
+
+.notes-title{
+
+    font-size:.78rem;
+
+    font-weight:700;
+
+    text-transform:uppercase;
+
+    letter-spacing:.05em;
+
+    color:var(--primary);
+
+}
+
+
+.notes-text{
+
+    font-size:.86rem;
+
+    line-height:1.45;
+
+    color:var(--text-main);
+
+}
+
+
+.notes-list{
+
+    margin:0;
+
+    padding-left:18px;
+
+}
+
+
+.notes-list li{
+
+    margin-bottom:4px;
+
+    color:var(--text-main);
+
+}
+
+
+/* ==========================================================================
+   SECTION TITLES
+   ========================================================================== */
+
+.section-title{
+
+    margin-bottom:10px;
+
+    font-size:.82rem;
+
+    font-weight:700;
+
+    color:var(--text-secondary);
+
+    text-transform:uppercase;
+
+}
+
+
+/* ==========================================================================
+   CARD ANIMATION
+   ========================================================================== */
+
+.info-card-v2{
+
+    transition:
+        transform .15s ease,
+        box-shadow .15s ease;
+
+}
+
+
+.info-card-v2:hover{
+
+    transform:translateY(-2px);
+
+    box-shadow:
+
+        0 8px 20px rgba(15,23,42,.10);
+
+}
+
+
+/* ==========================================================================
+   BADGE ANIMATION
+   ========================================================================== */
+
+.badge{
+
+    transition:
+        background .15s,
+        color .15s,
+        transform .15s;
+
+}
+
+
+.badge:hover{
+
+    transform:scale(1.04);
+
+}
+
+
+/* ==========================================================================
+   PHOTO
+   ========================================================================== */
+
+.summary-photo img{
+
+    transition:transform .25s ease;
+
+}
+
+
+.summary-photo:hover img{
+
+    transform:scale(1.03);
+
+}
+
+
+/* ==========================================================================
+   LINKS
+   ========================================================================== */
+
+a{
+
+    color:var(--primary);
+
+    text-decoration:none;
+
+}
+
+
+a:hover{
+
+    text-decoration:underline;
+
+}
+
+
+/* ==========================================================================
+   SELECTION
+   ========================================================================== */
+
+::selection{
+
+    background:#bfdbfe;
+
+    color:#0f172a;
+
+}
+
+
+/* ==========================================================================
+   PRINT
+   ========================================================================== */
+
+@media print{
+
+    .machine-layout-v2{
+
+        display:block;
+
+        height:auto;
+
+        padding:0;
+
+    }
+
+    .machine-summary-v2{
+
+        margin-bottom:20px;
+
+    }
+
+    .machine-content-v2{
+
+        display:grid;
+
+        grid-template-columns:1fr 1fr;
+
+        gap:12px;
+
+    }
+
+}
+
+
+/* ==========================================================================
+   24" Full HD Optimization
+   ========================================================================== */
+
+@media (min-width:1700px){
+
+    .machine-layout-v2{
+
+        grid-template-columns:340px 1fr;
+
+    }
+
+    .machine-content-v2{
+
+        grid-template-columns:repeat(2,1fr);
+
+        grid-template-rows:repeat(3,210px);
+
+    }
+
+}
+
+
+/* ==========================================================================
+   Large Screens
+   ========================================================================== */
+
+@media (min-width:2200px){
+
+    .machine-layout-v2{
+
+        max-width:2200px;
+
+        margin:auto;
+
+    }
+
+}
+
+.viewer-actions{
+
+    position:absolute;
+
+    right:20px;
+
+    bottom:20px;
+
+    display:flex;
+
+    gap:10px;
+
+    z-index:100;
+
+}
+
+.viewer-actions button{
+
+    min-width:120px;
+
+}
+
+
+/* ==========================================================================
+   End
+   ========================================================================== */

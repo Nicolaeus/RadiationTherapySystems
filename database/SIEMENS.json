@@ -1,0 +1,1049 @@
+[
+    {
+        "id": "SIEMENS_PRIMUS",
+        "manufacturer": "Siemens",
+        "manufacturer_country": "Germany",
+        "model": "Primus",
+        "aliases": [
+            "PRIMUS",
+            "Primus",
+            "Primus Mid Energy",
+            "Primus High Energy"
+        ],
+        "family": "Primus",
+        "series": "Primus",
+        "generation": "1",
+        "machine_type": "C-arm LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6X",
+                "10X",
+                "15X",
+                "18X"
+            ],
+            "electron_energies": [
+                "6E",
+                "9E",
+                "12E",
+                "15E",
+                "18E",
+                "21E"
+            ],
+            "flattening_filter": true,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": 300,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "82 MLC",
+            "leaves": 82,
+            "leaf_width_mm": 10,
+            "optional": true
+        },
+        "jaw": {
+            "type": "Secondary jaws",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": true,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": false,
+            "srs": false,
+            "srt": true,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": true,
+        "installation_start": 1998,
+        "installation_end": 2005,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "Oncor",
+        "notes": "Première plateforme Siemens entièrement numérique largement diffusée."
+    },
+    {
+        "id": "SIEMENS_ARTISTE",
+        "manufacturer": "Siemens",
+        "manufacturer_country": "Germany",
+        "model": "Artiste",
+        "aliases": [
+            "ARTISTE",
+            "Artiste"
+        ],
+        "family": "Artiste",
+        "series": "Artiste",
+        "generation": "1",
+        "machine_type": "Image-guided C-arm LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6X",
+                "7FFF",
+                "11X",
+                "15X"
+            ],
+            "electron_energies": [
+                "6E",
+                "9E",
+                "12E",
+                "15E",
+                "18E",
+                "21E"
+            ],
+            "flattening_filter": true,
+            "fff": true,
+            "dose_rate": {
+                "standard_mu_min": 300,
+                "fff_mu_min": 2000
+            }
+        },
+        "mlc": {
+            "model": "160 MLC",
+            "leaves": 160,
+            "leaf_width_mm": 5,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Secondary jaws",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": true,
+            "kv": false,
+            "mv": true,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": false,
+            "srs": true,
+            "srt": true,
+            "sbrt": true,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2009,
+        "installation_end": 2015,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "",
+        "notes": "Dernière génération de LINAC Siemens avant le retrait du constructeur du marché des accélérateurs de radiothérapie."
+    },
+    {
+        "id": "SIEMENS_MEVATRON_KD",
+        "manufacturer": "Siemens",
+        "manufacturer_country": "Germany",
+        "model": "Mevatron KD",
+        "aliases": [
+            "MEVATRON KD",
+            "Mevatron KD"
+        ],
+        "family": "Mevatron",
+        "series": "KD",
+        "generation": "1",
+        "machine_type": "C-arm LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6X",
+                "10X"
+            ],
+            "electron_energies": [
+                "6E",
+                "9E",
+                "12E",
+                "15E"
+            ],
+            "flattening_filter": true,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": 300,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": true
+        },
+        "jaw": {
+            "type": "Secondary jaws",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": false,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": true,
+        "installation_start": 1984,
+        "installation_end": 1990,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "Mevatron KD2",
+        "notes": "Première génération de la série Mevatron KD."
+    },
+    {
+        "id": "SIEMENS_MEVATRON_KD2",
+        "manufacturer": "Siemens",
+        "manufacturer_country": "Germany",
+        "model": "Mevatron KD2",
+        "aliases": [
+            "MEVATRON KD2",
+            "Mevatron KD2",
+            "KD-2"
+        ],
+        "family": "Mevatron",
+        "series": "KD2",
+        "generation": "2",
+        "machine_type": "C-arm LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6X",
+                "10X",
+                "15X"
+            ],
+            "electron_energies": [
+                "6E",
+                "9E",
+                "12E",
+                "15E",
+                "18E"
+            ],
+            "flattening_filter": true,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": 300,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": true
+        },
+        "jaw": {
+            "type": "Secondary jaws",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": true,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": false,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": true,
+        "installation_start": 1988,
+        "installation_end": 1995,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "Primus",
+        "notes": "Dernière évolution majeure de la série Mevatron KD avant l'arrivée de la gamme Primus."
+    },
+    {
+        "id": "SIEMENS_MEVATRON_KDS",
+        "manufacturer": "Siemens",
+        "manufacturer_country": "Germany",
+        "model": "Mevatron KDS",
+        "aliases": [
+            "MEVATRON KDS",
+            "Mevatron KDS"
+        ],
+        "family": "Mevatron",
+        "series": "KDS",
+        "generation": "1",
+        "machine_type": "C-arm LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6X",
+                "10X",
+                "15X"
+            ],
+            "electron_energies": [
+                "6E",
+                "9E",
+                "12E",
+                "15E",
+                "18E"
+            ],
+            "flattening_filter": true,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": 300,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": true
+        },
+        "jaw": {
+            "type": "Secondary jaws",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": true,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": false,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": true,
+        "installation_start": 1987,
+        "installation_end": 1993,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "Mevatron KDS2",
+        "notes": "Version haut de gamme de la famille KD."
+    },
+    {
+        "id": "SIEMENS_MEVATRON_KDS2",
+        "manufacturer": "Siemens",
+        "manufacturer_country": "Germany",
+        "model": "Mevatron KDS2",
+        "aliases": [
+            "MEVATRON KDS2",
+            "Mevatron KDS2",
+            "KDS-2"
+        ],
+        "family": "Mevatron",
+        "series": "KDS2",
+        "generation": "2",
+        "machine_type": "C-arm LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6X",
+                "10X",
+                "15X"
+            ],
+            "electron_energies": [
+                "6E",
+                "9E",
+                "12E",
+                "15E",
+                "18E",
+                "21E"
+            ],
+            "flattening_filter": true,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": 300,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": true
+        },
+        "jaw": {
+            "type": "Secondary jaws",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": true,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": true,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": true,
+        "installation_start": 1992,
+        "installation_end": 1998,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "Primus",
+        "notes": "Dernière évolution de la plateforme KDS avant Primus."
+    },
+    {
+        "id": "SIEMENS_MEVATRON_MD",
+        "manufacturer": "Siemens",
+        "manufacturer_country": "Germany",
+        "model": "Mevatron MD",
+        "aliases": [
+            "MEVATRON MD",
+            "Mevatron MD"
+        ],
+        "family": "Mevatron",
+        "series": "MD",
+        "generation": "1",
+        "machine_type": "Dual-energy LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6X",
+                "20X"
+            ],
+            "electron_energies": [
+                "6E",
+                "9E",
+                "12E",
+                "15E",
+                "18E",
+                "21E"
+            ],
+            "flattening_filter": true,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": 300,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": true
+        },
+        "jaw": {
+            "type": "Secondary jaws",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": true,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": false,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": true,
+        "installation_start": 1988,
+        "installation_end": 1996,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "Mevatron MD2",
+        "notes": "Plateforme Mevatron haute énergie."
+    },
+    {
+        "id": "SIEMENS_MEVATRON_MD2",
+        "manufacturer": "Siemens",
+        "manufacturer_country": "Germany",
+        "model": "Mevatron MD2",
+        "aliases": [
+            "MEVATRON MD2",
+            "Mevatron MD2",
+            "MD-2"
+        ],
+        "family": "Mevatron",
+        "series": "MD2",
+        "generation": "2",
+        "machine_type": "Dual-energy LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6X",
+                "20X"
+            ],
+            "electron_energies": [
+                "6E",
+                "9E",
+                "12E",
+                "15E",
+                "18E",
+                "21E"
+            ],
+            "flattening_filter": true,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": 300,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": true
+        },
+        "jaw": {
+            "type": "Secondary jaws",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": true,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": true,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": true,
+        "installation_start": 1993,
+        "installation_end": 1999,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "Primus",
+        "notes": "Dernière évolution de la série MD."
+    },
+    {
+        "id": "SIEMENS_MEVATRON_MX",
+        "manufacturer": "Siemens",
+        "manufacturer_country": "Germany",
+        "model": "Mevatron MX",
+        "aliases": [
+            "MEVATRON MX",
+            "Mevatron MX"
+        ],
+        "family": "Mevatron",
+        "series": "MX",
+        "generation": "1",
+        "machine_type": "C-arm LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6X",
+                "10X",
+                "15X"
+            ],
+            "electron_energies": [
+                "6E",
+                "9E",
+                "12E",
+                "15E",
+                "18E"
+            ],
+            "flattening_filter": true,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": 300,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": true
+        },
+        "jaw": {
+            "type": "Secondary jaws",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": true,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": true,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": true,
+        "installation_start": 1992,
+        "installation_end": 1998,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "Primus",
+        "notes": "Plateforme Mevatron de dernière génération avant Primus."
+    },
+    {
+        "id": "SIEMENS_MEVATRON_MXE",
+        "manufacturer": "Siemens",
+        "manufacturer_country": "Germany",
+        "model": "Mevatron MXE",
+        "aliases": [
+            "MEVATRON MXE",
+            "Mevatron MXE"
+        ],
+        "family": "Mevatron",
+        "series": "MXE",
+        "generation": "2",
+        "machine_type": "C-arm LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6X",
+                "10X",
+                "15X",
+                "18X"
+            ],
+            "electron_energies": [
+                "6E",
+                "9E",
+                "12E",
+                "15E",
+                "18E",
+                "21E"
+            ],
+            "flattening_filter": true,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": 300,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "82 MLC",
+            "leaves": 82,
+            "leaf_width_mm": 10,
+            "optional": true
+        },
+        "jaw": {
+            "type": "Secondary jaws",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": true,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": true,
+            "vmat": false,
+            "srs": false,
+            "srt": true,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": true,
+        "installation_start": 1995,
+        "installation_end": 2001,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "Primus",
+        "notes": "Dernière évolution de la plateforme MX."
+    },
+    {
+        "id": "SIEMENS_MEVATRON_M2",
+        "manufacturer": "Siemens",
+        "manufacturer_country": "Germany",
+        "model": "Mevatron M2",
+        "aliases": [
+            "MEVATRON M2",
+            "Mevatron M2"
+        ],
+        "family": "Mevatron",
+        "series": "M2",
+        "generation": "2",
+        "machine_type": "C-arm LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6X"
+            ],
+            "electron_energies": [
+                "6E",
+                "9E",
+                "12E"
+            ],
+            "flattening_filter": true,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": 300,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": true
+        },
+        "jaw": {
+            "type": "Secondary jaws",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": false,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": true,
+        "installation_start": 1982,
+        "installation_end": 1989,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "Mevatron KD",
+        "notes": "Plateforme Mevatron d'entrée de gamme."
+    },
+    {
+        "id": "SIEMENS_MEVATRON_PRIMART",
+        "manufacturer": "Siemens",
+        "manufacturer_country": "Germany",
+        "model": "Mevatron Primart",
+        "aliases": [
+            "PRIMART",
+            "Primart",
+            "Mevatron Primart"
+        ],
+        "family": "Mevatron",
+        "series": "Primart",
+        "generation": "1",
+        "machine_type": "Image-guided C-arm LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6X",
+                "15X"
+            ],
+            "electron_energies": [
+                "6E",
+                "9E",
+                "12E",
+                "15E",
+                "18E"
+            ],
+            "flattening_filter": true,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": 300,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "82 MLC",
+            "leaves": 82,
+            "leaf_width_mm": 10,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Secondary jaws",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": true,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": false,
+            "srs": false,
+            "srt": true,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": true,
+        "installation_start": 1999,
+        "installation_end": 2004,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "Primus",
+        "notes": "Plateforme de transition entre Mevatron et Primus."
+    },
+    {
+        "id": "SIEMENS_MEVATRON_77",
+        "manufacturer": "Siemens",
+        "manufacturer_country": "Germany",
+        "model": "Mevatron 77",
+        "aliases": [
+            "MEVATRON 77",
+            "Mevatron 77",
+            "Mevatron XX"
+        ],
+        "family": "Mevatron",
+        "series": "77",
+        "generation": "1",
+        "machine_type": "C-arm LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "partial",
+        "beam": {
+            "photon_energies": [
+                "10X",
+                "15X"
+            ],
+            "electron_energies": [
+                "3E",
+                "6E",
+                "9E",
+                "12E",
+                "15E",
+                "18E"
+            ],
+            "flattening_filter": null,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": null
+        },
+        "jaw": {
+            "type": "",
+            "dynamic": null
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": false,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": false,
+        "installation_start": 1977,
+        "installation_end": null,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "Mevatron KD",
+        "notes": "Premier accélérateur linéaire médical Siemens de la famille Mevatron. Les données disponibles dans la littérature permettent de confirmer son existence et ses plages d'énergie, mais les caractéristiques détaillées (MLC, imagerie, débit de dose, options) n'ont pas été retrouvées dans une documentation constructeur primaire."
+    }
+]

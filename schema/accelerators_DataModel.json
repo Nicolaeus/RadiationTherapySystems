@@ -1,0 +1,86 @@
+{
+    "id": "",
+
+    "manufacturer": "",
+    "manufacturer_country": "",
+
+    "model": "",
+    "aliases": [],
+
+    "family": "",
+    "series": "",
+    "generation": "",
+
+    "machine_type": "",
+
+    "technology": {
+        "type": "LINAC",
+        "c_arm": false,
+        "ring_gantry": false,
+        "robotic": false,
+        "mr_linac": false,
+        "tomotherapy": false,
+        "proton": false,
+        "carbon": false
+    },
+
+    "validation": "confirmed",
+
+    "beam": {
+        "photon_energies": [],
+        "electron_energies": [],
+
+        "flattening_filter": true,
+        "fff": false,
+
+        "dose_rate": {
+            "standard_mu_min": null,
+            "fff_mu_min": null
+        }
+    },
+
+    "mlc": {
+        "model": "",
+        "leaves": null,
+        "leaf_width_mm": null,
+        "optional": false
+    },
+
+    "jaw": {
+        "type": "",
+        "dynamic": false
+    },
+
+    "imaging": {
+        "cbct": false,
+        "kv": false,
+        "mv": false,
+        "surface_guidance": false
+    },
+
+    "techniques": {
+        "igrt": false,
+        "imrt": false,
+        "vmat": false,
+        "srs": false,
+        "srt": false,
+        "sbrt": false,
+        "adaptive": false,
+        "gating": false,
+        "tracking": false
+    },
+
+    "six_dof_couch": false,
+
+    "dicom_rt": true,
+
+    "installation_start": null,
+    "installation_end": null,
+
+    "production_status": "",
+    "support_status": null,
+
+    "successor": "",
+
+    "notes": ""
+}

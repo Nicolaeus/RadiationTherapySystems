@@ -1,0 +1,144 @@
+[
+    {
+        "id": "NEUSOFT_NEURT_BRAVO",
+        "manufacturer": "Neusoft IntelliRay",
+        "manufacturer_country": "China",
+        "model": "NeuRT Bravo",
+        "aliases": [
+            "Bravo",
+            "NeuRT Bravo"
+        ],
+        "family": "NeuRT",
+        "series": "Bravo",
+        "generation": "1",
+        "machine_type": "Image-guided Linear Accelerator",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [],
+            "electron_energies": [],
+            "flattening_filter": true,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Secondary jaws",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": true,
+            "kv": true,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": true,
+            "srs": false,
+            "srt": true,
+            "sbrt": true,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2025,
+        "installation_end": null,
+        "production_status": "In Production",
+        "support_status": null,
+        "successor": "NeuRT Aurora",
+        "notes": "Première plateforme de radiothérapie de Neusoft IntelliRay."
+    },
+    {
+        "id": "NEUSOFT_NEURT_AURORA",
+        "manufacturer": "Neusoft IntelliRay",
+        "manufacturer_country": "China",
+        "model": "NeuRT Aurora",
+        "aliases": [
+            "Aurora",
+            "NeuRT Aurora"
+        ],
+        "family": "NeuRT",
+        "series": "Aurora",
+        "generation": "2",
+        "machine_type": "Ring-Gantry Linear Accelerator",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": false,
+            "ring_gantry": true,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6FFF"
+            ],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": true,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": 1600
+            }
+        },
+        "mlc": {
+            "model": "Dual-layer MLC",
+            "leaves": 122,
+            "leaf_width_mm": 5,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Secondary jaws",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": true,
+            "kv": false,
+            "mv": false,
+            "surface_guidance": true
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": true,
+            "srs": true,
+            "srt": true,
+            "sbrt": true,
+            "adaptive": true,
+            "gating": true,
+            "tracking": false
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2025,
+        "installation_end": null,
+        "production_status": "In Production",
+        "support_status": null,
+        "successor": "",
+        "notes": "Plateforme annulaire intégrant SVMAT, iCBCT et radiothérapie adaptative."
+    }
+]

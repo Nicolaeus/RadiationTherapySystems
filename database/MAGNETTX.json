@@ -1,0 +1,74 @@
+[
+    {
+        "id": "MAGNETTX_AURORA_RT",
+        "manufacturer": "MagnetTx Oncology Solutions",
+        "manufacturer_country": "Canada",
+        "model": "Aurora-RT",
+        "aliases": [
+            "Aurora RT",
+            "Aurora-RT™"
+        ],
+        "family": "Aurora",
+        "series": "",
+        "generation": "1",
+        "machine_type": "MR-Linac",
+        "technology": {
+            "type": "PHOTON",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": true,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6 MV"
+            ],
+            "electron_energies": [],
+            "flattening_filter": true,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": 600,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "High-Resolution MLC",
+            "leaves": null,
+            "leaf_width_mm": 5,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Secondary Collimator",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": false,
+            "srs": true,
+            "srt": true,
+            "sbrt": true,
+            "adaptive": true,
+            "gating": true,
+            "tracking": true
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2022,
+        "installation_end": null,
+        "production_status": "In Production",
+        "support_status": null,
+        "successor": "",
+        "notes": "MR-Linac intégrant un accélérateur linéaire 6 MV et une IRM ouverte de 0,5 T. Le champ magnétique est parallèle au faisceau, ce qui réduit fortement l'Electron Return Effect (ERE) et l'Electron Streaming Effect (ESE). Ouverture patient de 110 × 60 cm, acquisition IRM temps réel (~4 images/s), aimant supraconducteur refroidi par cryocooler sans hélium liquide, architecture modulaire compatible avec la radiothérapie adaptative en ligne."
+    }
+]

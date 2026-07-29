@@ -1,0 +1,142 @@
+[
+    {
+        "id": "MITSUBISHI_PROTON",
+        "manufacturer": "Mitsubishi Electric",
+        "manufacturer_country": "Japan",
+        "model": "Proton Therapy System",
+        "aliases": [
+            "Mitsubishi Proton Therapy System",
+            "Mitsubishi Proton Beam Therapy System"
+        ],
+        "family": "Particle Therapy",
+        "series": "Proton",
+        "generation": "1",
+        "machine_type": "Multi-Room Proton Therapy System",
+        "technology": {
+            "type": "PROTON",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": true,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Passive Scattering",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": true,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": false,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": true,
+            "adaptive": false,
+            "gating": true,
+            "tracking": false
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2002,
+        "installation_end": 2014,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "Single-Room Proton Therapy System",
+        "notes": "Première plateforme commerciale de protonthérapie de Mitsubishi Electric, basée sur un synchrotron. Initialement équipée d'une diffusion passive."
+    },
+    {
+        "id": "MITSUBISHI_SINGLE_ROOM_PROTON",
+        "manufacturer": "Mitsubishi Electric",
+        "manufacturer_country": "Japan",
+        "model": "Single-Room Proton Therapy System",
+        "aliases": [
+            "Compact Proton Therapy System",
+            "Single-Room Proton Therapy System"
+        ],
+        "family": "Particle Therapy",
+        "series": "Single Room",
+        "generation": "2",
+        "machine_type": "Compact Single-Room Proton Therapy System",
+        "technology": {
+            "type": "PROTON",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": true,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Scanning / Passive Scattering",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": true,
+            "kv": true,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": true,
+            "adaptive": false,
+            "gating": true,
+            "tracking": true
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2014,
+        "installation_end": null,
+        "production_status": "In Production",
+        "support_status": null,
+        "successor": "",
+        "notes": "Version compacte mono-salle dérivée de la plateforme Mitsubishi. Compatible avec la diffusion passive, le Layer Stacking et le Pencil Beam Scanning grâce à une buse multifonction."
+    }
+]

@@ -1,0 +1,1133 @@
+[
+{
+    "id": "ACCURAY_CYBERKNIFE_CONCEPT",
+
+    "manufacturer": "Accuray",
+    "manufacturer_country": "USA",
+
+    "model": "CyberKnife Original Concept",
+
+    "aliases": [
+        "Original Concept",
+        "CyberKnife Concept"
+    ],
+
+    "family": "CyberKnife",
+    "series": "Concept",
+    "generation": "0",
+
+    "machine_type": "Prototype robotic stereotactic LINAC",
+
+    "technology": {
+        "type": "LINAC",
+        "c_arm": false,
+        "ring_gantry": false,
+        "robotic": true,
+        "mr_linac": false,
+        "tomotherapy": false,
+        "proton": false,
+        "carbon": false
+    },
+
+    "validation": "confirmed",
+
+    "beam": {
+        "photon_energies": [],
+        "electron_energies": [],
+        "flattening_filter": true,
+        "fff": false,
+        "dose_rate": {
+            "standard_mu_min": null,
+            "fff_mu_min": null
+        }
+    },
+
+    "mlc": {
+        "model": "",
+        "leaves": null,
+        "leaf_width_mm": null,
+        "optional": false
+    },
+
+    "jaw": {
+        "type": "Prototype circular collimator",
+        "dynamic": false
+    },
+
+    "imaging": {
+        "cbct": false,
+        "kv": false,
+        "mv": false,
+        "surface_guidance": false
+    },
+
+    "techniques": {
+        "igrt": false,
+        "imrt": false,
+        "vmat": false,
+        "srs": true,
+        "srt": false,
+        "sbrt": false,
+        "adaptive": false,
+        "gating": false,
+        "tracking": false
+    },
+
+    "six_dof_couch": false,
+
+    "dicom_rt": false,
+
+    "installation_start": 1988,
+    "installation_end": 1994,
+
+    "production_status": "Prototype",
+    "support_status": "NONE",
+
+    "successor": "Neurotron 1000",
+
+    "notes": "Premier concept imaginé par John R. Adler à Stanford. Prototype expérimental à l'origine du CyberKnife."
+},
+{
+    "id": "ACCURAY_NEUROTRON_1000",
+
+    "manufacturer": "Accuray",
+    "manufacturer_country": "USA",
+
+    "model": "Neurotron 1000",
+
+    "aliases": [
+        "CyberKnife Prototype",
+        "Neurotron-1000"
+    ],
+
+    "family": "CyberKnife",
+    "series": "Prototype",
+    "generation": "1",
+
+    "machine_type": "Prototype robotic stereotactic LINAC",
+
+    "technology": {
+        "type": "LINAC",
+        "c_arm": false,
+        "ring_gantry": false,
+        "robotic": true,
+        "mr_linac": false,
+        "tomotherapy": false,
+        "proton": false,
+        "carbon": false
+    },
+
+    "validation": "confirmed",
+
+    "beam": {
+        "photon_energies": [
+            "6"
+        ],
+        "electron_energies": [],
+        "flattening_filter": true,
+        "fff": false,
+        "dose_rate": {
+            "standard_mu_min": 600,
+            "fff_mu_min": null
+        }
+    },
+
+    "mlc": {
+        "model": "Fixed circular collimators",
+        "leaves": null,
+        "leaf_width_mm": null,
+        "optional": false
+    },
+
+    "jaw": {
+        "type": "Circular collimators",
+        "dynamic": false
+    },
+
+    "imaging": {
+        "cbct": false,
+        "kv": true,
+        "mv": false,
+        "surface_guidance": false
+    },
+
+    "techniques": {
+        "igrt": true,
+        "imrt": false,
+        "vmat": false,
+        "srs": true,
+        "srt": true,
+        "sbrt": false,
+        "adaptive": false,
+        "gating": false,
+        "tracking": false
+    },
+
+    "six_dof_couch": false,
+
+    "dicom_rt": false,
+
+    "installation_start": 1994,
+    "installation_end": 1997,
+
+    "production_status": "Prototype",
+    "support_status": "NONE",
+
+    "successor": "CyberKnife G2",
+
+    "notes": "Premier prototype clinique installé à Stanford University Medical Center. Premier patient traité le 8 juin 1994."
+},
+{
+    "id": "ACCURAY_CYBERKNIFE_G2",
+
+    "manufacturer": "Accuray",
+    "manufacturer_country": "USA",
+
+    "model": "CyberKnife G2",
+
+    "aliases": [
+        "CyberKnife G2",
+        "CK G2",
+        "G2"
+    ],
+
+    "family": "CyberKnife",
+    "series": "G2",
+    "generation": "2",
+
+    "machine_type": "Robotic stereotactic LINAC",
+
+    "technology": {
+        "type": "LINAC",
+        "c_arm": false,
+        "ring_gantry": false,
+        "robotic": true,
+        "mr_linac": false,
+        "tomotherapy": false,
+        "proton": false,
+        "carbon": false
+    },
+
+    "validation": "confirmed",
+
+    "beam": {
+        "photon_energies": [
+            "6"
+        ],
+        "electron_energies": [],
+        "flattening_filter": true,
+        "fff": false,
+        "dose_rate": {
+            "standard_mu_min": 600,
+            "fff_mu_min": null
+        }
+    },
+
+    "mlc": {
+        "model": "Fixed circular collimators",
+        "leaves": null,
+        "leaf_width_mm": null,
+        "optional": false
+    },
+
+    "jaw": {
+        "type": "Circular collimators",
+        "dynamic": false
+    },
+
+    "imaging": {
+        "cbct": false,
+        "kv": true,
+        "mv": false,
+        "surface_guidance": false
+    },
+
+    "techniques": {
+        "igrt": true,
+        "imrt": true,
+        "vmat": false,
+        "srs": true,
+        "srt": true,
+        "sbrt": false,
+        "adaptive": false,
+        "gating": false,
+        "tracking": false
+    },
+
+    "six_dof_couch": false,
+
+    "dicom_rt": true,
+
+    "installation_start": 1997,
+    "installation_end": 2001,
+
+    "production_status": "Discontinued",
+    "support_status": "NONE",
+
+    "successor": "CyberKnife G3",
+
+    "notes": "Deuxième génération CyberKnife. Introduction du robot KUKA et de détecteurs plans en silicium amorphe remplaçant le système fluoroscopique d'origine."
+},
+{
+    "id": "ACCURAY_CYBERKNIFE_G3",
+
+    "manufacturer": "Accuray",
+    "manufacturer_country": "USA",
+
+    "model": "CyberKnife G3",
+
+    "aliases": [
+        "CyberKnife G3",
+        "G3",
+        "CK G3"
+    ],
+
+    "family": "CyberKnife",
+    "series": "G3",
+    "generation": "3",
+
+    "machine_type": "Robotic stereotactic LINAC",
+
+    "technology": {
+        "type": "LINAC",
+        "c_arm": false,
+        "ring_gantry": false,
+        "robotic": true,
+        "mr_linac": false,
+        "tomotherapy": false,
+        "proton": false,
+        "carbon": false
+    },
+
+    "validation": "confirmed",
+
+    "beam": {
+        "photon_energies": [
+            "6FFF"
+        ],
+
+        "electron_energies": [],
+
+        "flattening_filter": false,
+        "fff": true,
+
+        "dose_rate": {
+            "standard_mu_min": null,
+            "fff_mu_min": 800
+        }
+    },
+
+    "mlc": {
+        "model": "Fixed circular collimators",
+        "leaves": null,
+        "leaf_width_mm": null,
+        "optional": false
+    },
+
+    "jaw": {
+        "type": "Circular collimators",
+        "dynamic": false
+    },
+
+    "imaging": {
+        "cbct": false,
+        "kv": true,
+        "mv": false,
+        "surface_guidance": false
+    },
+
+    "techniques": {
+        "igrt": true,
+        "imrt": true,
+        "vmat": false,
+        "srs": true,
+        "srt": true,
+        "sbrt": true,
+        "adaptive": false,
+        "gating": true,
+        "tracking": true
+    },
+
+    "six_dof_couch": true,
+
+    "dicom_rt": true,
+
+    "installation_start": 2001,
+    "installation_end": 2005,
+
+    "production_status": "Discontinued",
+	"support_status": "FULL",
+
+    "successor": "CyberKnife G4",
+
+    "notes": "Troisième génération CyberKnife utilisant des collimateurs circulaires fixes."
+},
+{
+    "id": "ACCURAY_CYBERKNIFE_G4",
+
+    "manufacturer": "Accuray",
+    "manufacturer_country": "USA",
+
+    "model": "CyberKnife G4",
+
+    "aliases": [
+        "CyberKnife G4",
+        "CK G4",
+        "G4"
+    ],
+
+    "family": "CyberKnife",
+    "series": "G4",
+    "generation": "4",
+
+    "machine_type": "Robotic stereotactic LINAC",
+
+    "technology": {
+        "type": "LINAC",
+        "c_arm": false,
+        "ring_gantry": false,
+        "robotic": true,
+        "mr_linac": false,
+        "tomotherapy": false,
+        "proton": false,
+        "carbon": false
+    },
+
+    "validation": "confirmed",
+
+    "beam": {
+        "photon_energies": [
+            "6FFF"
+        ],
+        "electron_energies": [],
+        "flattening_filter": false,
+        "fff": true,
+        "dose_rate": {
+            "standard_mu_min": null,
+            "fff_mu_min": 800
+        }
+    },
+
+    "mlc": {
+        "model": "Iris",
+        "leaves": null,
+        "leaf_width_mm": null,
+        "optional": true
+    },
+
+    "jaw": {
+        "type": "Fixed circular / Iris",
+        "dynamic": true
+    },
+
+    "imaging": {
+        "cbct": false,
+        "kv": true,
+        "mv": false,
+        "surface_guidance": false
+    },
+
+    "techniques": {
+        "igrt": true,
+        "imrt": true,
+        "vmat": false,
+        "srs": true,
+        "srt": true,
+        "sbrt": true,
+        "adaptive": false,
+        "gating": true,
+        "tracking": true
+    },
+
+    "six_dof_couch": false,
+
+    "dicom_rt": true,
+
+    "installation_start": 2005,
+    "installation_end": 2010,
+
+    "production_status": "Discontinued",
+    "support_status": "FULL",
+
+    "successor": "CyberKnife VSI",
+
+    "notes": "Quatrième génération CyberKnife. Introduction de la table automatique Xchange pour le changement de collimateurs. Compatible avec le collimateur Iris (introduit en 2008). Débit de dose porté jusqu'à 800 MU/min sur les versions récentes."
+},
+{
+    "id": "ACCURAY_CYBERKNIFE_VSI",
+
+    "manufacturer": "Accuray",
+    "manufacturer_country": "USA",
+
+    "model": "CyberKnife VSI",
+
+    "aliases": [
+        "CyberKnife VSI",
+        "CK VSI",
+        "VSI"
+    ],
+
+    "family": "CyberKnife",
+    "series": "VSI",
+    "generation": "5",
+
+    "machine_type": "Robotic stereotactic LINAC",
+
+    "technology": {
+        "type": "LINAC",
+        "c_arm": false,
+        "ring_gantry": false,
+        "robotic": true,
+        "mr_linac": false,
+        "tomotherapy": false,
+        "proton": false,
+        "carbon": false
+    },
+
+    "validation": "confirmed",
+
+    "beam": {
+        "photon_energies": [
+            "6FFF"
+        ],
+
+        "electron_energies": [],
+
+        "flattening_filter": false,
+        "fff": true,
+
+        "dose_rate": {
+            "standard_mu_min": null,
+            "fff_mu_min": 1000
+        }
+    },
+
+    "mlc": {
+        "model": "Iris",
+        "leaves": null,
+        "leaf_width_mm": null,
+        "optional": true
+    },
+
+    "jaw": {
+        "type": "Fixed circular / Iris",
+        "dynamic": true
+    },
+
+    "imaging": {
+        "cbct": false,
+        "kv": true,
+        "mv": false,
+        "surface_guidance": false
+    },
+
+    "techniques": {
+        "igrt": true,
+        "imrt": true,
+        "vmat": false,
+        "srs": true,
+        "srt": true,
+        "sbrt": true,
+        "adaptive": false,
+        "gating": true,
+        "tracking": true
+    },
+
+    "six_dof_couch": true,
+
+    "dicom_rt": true,
+
+    "installation_start": 2011,
+    "installation_end": 2015,
+
+    "production_status": "Discontinued",
+	"support_status": "FULL",
+
+    "successor": "CyberKnife M6",
+
+    "notes": "Première génération CyberKnife intégrant la plateforme VSI (Variable Source Imaging). Compatible collimateurs fixes et Iris."
+},
+{
+    "id": "ACCURAY_CYBERKNIFE_M6",
+
+    "manufacturer": "Accuray",
+    "manufacturer_country": "USA",
+
+    "model": "CyberKnife M6",
+
+    "aliases": [
+        "CyberKnife M6",
+        "CK M6",
+        "M6"
+    ],
+
+    "family": "CyberKnife",
+    "series": "M6",
+    "generation": "6",
+
+    "machine_type": "Robotic stereotactic LINAC",
+
+    "technology": {
+        "type": "LINAC",
+        "c_arm": false,
+        "ring_gantry": false,
+        "robotic": true,
+        "mr_linac": false,
+        "tomotherapy": false,
+        "proton": false,
+        "carbon": false
+    },
+
+    "validation": "confirmed",
+
+    "beam": {
+        "photon_energies": [
+            "6FFF"
+        ],
+
+        "electron_energies": [],
+
+        "flattening_filter": false,
+        "fff": true,
+
+        "dose_rate": {
+            "standard_mu_min": null,
+            "fff_mu_min": 1000
+        }
+    },
+
+    "mlc": {
+        "model": "InCise MLC",
+        "leaves": 41,
+        "leaf_width_mm": 3.85,
+        "optional": true
+    },
+
+    "jaw": {
+        "type": "Fixed circular / Iris / InCise MLC",
+        "dynamic": true
+    },
+
+    "imaging": {
+        "cbct": false,
+        "kv": true,
+        "mv": false,
+        "surface_guidance": false
+    },
+
+    "techniques": {
+        "igrt": true,
+        "imrt": true,
+        "vmat": false,
+        "srs": true,
+        "srt": true,
+        "sbrt": true,
+        "adaptive": false,
+        "gating": true,
+        "tracking": true
+    },
+
+    "six_dof_couch": true,
+
+    "dicom_rt": true,
+
+    "installation_start": 2015,
+    "installation_end": null,
+
+    "production_status": "IN_PRODUCTION",
+	"support_status": "FULL",
+
+    "successor": "CyberKnife S7",
+
+    "notes": "Première génération CyberKnife compatible avec le collimateur multilames InCise MLC tout en conservant les collimateurs fixes et Iris."
+},
+{
+    "id": "ACCURAY_CYBERKNIFE_S7",
+
+    "manufacturer": "Accuray",
+    "manufacturer_country": "USA",
+
+    "model": "CyberKnife S7",
+
+    "aliases": [
+        "CyberKnife S7",
+        "CK S7",
+        "S7"
+    ],
+
+    "family": "CyberKnife",
+    "series": "S7",
+    "generation": "7",
+
+    "machine_type": "Robotic stereotactic LINAC",
+
+    "technology": {
+        "type": "LINAC",
+        "c_arm": false,
+        "ring_gantry": false,
+        "robotic": true,
+        "mr_linac": false,
+        "tomotherapy": false,
+        "proton": false,
+        "carbon": false
+    },
+
+    "validation": "confirmed",
+
+    "beam": {
+        "photon_energies": [
+            "6FFF"
+        ],
+
+        "electron_energies": [],
+
+        "flattening_filter": false,
+        "fff": true,
+
+        "dose_rate": {
+            "standard_mu_min": null,
+            "fff_mu_min": 1000
+        }
+    },
+
+    "mlc": {
+        "model": "InCise 2",
+        "leaves": 41,
+        "leaf_width_mm": 3.85,
+        "optional": true
+    },
+
+    "jaw": {
+        "type": "Fixed circular / Iris / InCise 2 MLC",
+        "dynamic": true
+    },
+
+    "imaging": {
+        "cbct": false,
+        "kv": true,
+        "mv": false,
+        "surface_guidance": false
+    },
+
+    "techniques": {
+        "igrt": true,
+        "imrt": true,
+        "vmat": false,
+        "srs": true,
+        "srt": true,
+        "sbrt": true,
+        "adaptive": false,
+        "gating": true,
+        "tracking": true
+    },
+
+    "six_dof_couch": true,
+
+    "dicom_rt": true,
+
+    "installation_start": 2023,
+    "installation_end": null,
+
+    "production_status": "Active",
+    "support_status": "FULL",
+
+    "successor": "",
+
+    "notes": "Dernière génération CyberKnife intégrant Synchrony, Precision et le collimateur multilames InCise 2."
+},
+{
+    "id": "ACCURAY_HI_ART",
+
+    "manufacturer": "Accuray",
+
+    "manufacturer_country": "USA",
+
+    "model": "Hi·Art",
+
+    "aliases": [
+        "Hi-Art",
+        "HiArt",
+        "Hi·Art",
+        "TomoTherapy Hi-Art"
+    ],
+
+    "family": "TomoTherapy",
+
+    "series": "Hi·Art",
+
+    "generation": "1",
+
+    "machine_type": "Helical Tomotherapy",
+
+    "technology": {
+        "type": "LINAC",
+        "c_arm": false,
+        "ring_gantry": true,
+        "robotic": false,
+        "mr_linac": false,
+        "tomotherapy": true,
+        "proton": false,
+        "carbon": false
+    },
+
+    "validation": "confirmed",
+
+    "beam": {
+        "photon_energies": [
+            "6FFF"
+        ],
+
+        "electron_energies": [],
+
+        "flattening_filter": false,
+
+        "fff": true,
+
+        "dose_rate": {
+            "standard_mu_min": null,
+            "fff_mu_min": 850
+        }
+    },
+
+    "mlc": {
+        "model": "Binary MLC",
+
+        "leaves": 64,
+
+        "leaf_width_mm": 6.25,
+
+        "optional": false
+    },
+
+    "jaw": {
+        "type": "Binary jaw",
+
+        "dynamic": true
+    },
+
+    "imaging": {
+        "cbct": false,
+
+        "kv": false,
+
+        "mv": true,
+
+        "surface_guidance": false
+    },
+
+    "techniques": {
+        "igrt": true,
+
+        "imrt": true,
+
+        "vmat": false,
+
+        "srs": false,
+
+        "srt": false,
+
+        "sbrt": true,
+
+        "adaptive": false,
+
+        "gating": false,
+
+        "tracking": false
+    },
+
+    "six_dof_couch": false,
+
+    "dicom_rt": true,
+
+    "installation_start": 2002,
+
+    "installation_end": 2011,
+
+    "production_status": "Discontinued",
+    "support_status": "FULL",
+
+    "successor": "TomoHD",
+
+    "notes": "Première plateforme clinique de tomothérapie hélicoïdale utilisant un MLC binaire de 64 lames et une imagerie MVCT."
+},
+{
+    "id": "ACCURAY_TOMO_HD",
+
+    "manufacturer": "Accuray",
+    "manufacturer_country": "USA",
+
+    "model": "TomoHD",
+
+    "aliases": [
+        "TomoHD",
+        "Tomo HD",
+        "TomoTherapy TomoHD"
+    ],
+
+    "family": "TomoTherapy",
+    "series": "HD",
+    "generation": "2",
+
+    "machine_type": "Helical Tomotherapy",
+
+    "technology": {
+        "type": "LINAC",
+        "c_arm": false,
+        "ring_gantry": true,
+        "robotic": false,
+        "mr_linac": false,
+        "tomotherapy": true,
+        "proton": false,
+        "carbon": false
+    },
+
+    "validation": "confirmed",
+
+    "beam": {
+        "photon_energies": [
+            "6FFF"
+        ],
+
+        "electron_energies": [],
+
+        "flattening_filter": false,
+        "fff": true,
+
+        "dose_rate": {
+            "standard_mu_min": null,
+            "fff_mu_min": 850
+        }
+    },
+
+    "mlc": {
+        "model": "Binary MLC",
+        "leaves": 64,
+        "leaf_width_mm": 6.25,
+        "optional": false
+    },
+
+    "jaw": {
+        "type": "Dynamic binary jaws",
+        "dynamic": true
+    },
+
+    "imaging": {
+        "cbct": false,
+        "kv": false,
+        "mv": true,
+        "surface_guidance": false
+    },
+
+    "techniques": {
+        "igrt": true,
+        "imrt": true,
+        "vmat": false,
+        "srs": false,
+        "srt": false,
+        "sbrt": true,
+        "adaptive": false,
+        "gating": false,
+        "tracking": false
+    },
+
+    "six_dof_couch": false,
+
+    "dicom_rt": true,
+
+    "installation_start": 2011,
+    "installation_end": 2018,
+
+    "production_status": "Discontinued",
+    "support_status": "FULL",
+
+    "successor": "Radixact",
+
+    "notes": "Introduction de TomoDirect, du Dynamic Jaw et d'améliorations de l'imagerie MVCT."
+},
+{
+    "id": "ACCURAY_RADIXACT",
+
+    "manufacturer": "Accuray",
+    "manufacturer_country": "USA",
+
+    "model": "Radixact",
+
+    "aliases": [
+        "Radixact",
+        "Accuray Radixact"
+    ],
+
+    "family": "Radixact",
+    "series": "Radixact",
+    "generation": "3",
+
+    "machine_type": "Helical Tomotherapy",
+
+    "technology": {
+        "type": "LINAC",
+        "c_arm": false,
+        "ring_gantry": true,
+        "robotic": false,
+        "mr_linac": false,
+        "tomotherapy": true,
+        "proton": false,
+        "carbon": false
+    },
+
+    "validation": "confirmed",
+
+    "beam": {
+        "photon_energies": [
+            "6FFF"
+        ],
+
+        "electron_energies": [],
+
+        "flattening_filter": false,
+        "fff": true,
+
+        "dose_rate": {
+            "standard_mu_min": null,
+            "fff_mu_min": 1000
+        }
+    },
+
+    "mlc": {
+        "model": "Binary MLC",
+        "leaves": 64,
+        "leaf_width_mm": 6.25,
+        "optional": false
+    },
+
+    "jaw": {
+        "type": "Dynamic binary jaws",
+        "dynamic": true
+    },
+
+    "imaging": {
+        "cbct": false,
+        "kv": false,
+        "mv": true,
+        "surface_guidance": false
+    },
+
+    "techniques": {
+        "igrt": true,
+        "imrt": true,
+        "vmat": false,
+        "srs": false,
+        "srt": false,
+        "sbrt": true,
+        "adaptive": true,
+        "gating": true,
+        "tracking": false
+    },
+
+    "six_dof_couch": true,
+
+    "dicom_rt": true,
+
+    "installation_start": 2018,
+    "installation_end": null,
+
+    "production_status": "Active",
+    "support_status": "FULL",
+
+    "successor": "Radixact X9",
+
+    "notes": "Troisième génération TomoTherapy avec accélérateur modernisé, traitement plus rapide, Synchrony® pour le suivi respiratoire et plateforme iDMS."
+},
+{
+    "id": "ACCURAY_RADIXACT_X9",
+
+    "manufacturer": "Accuray",
+    "manufacturer_country": "USA",
+
+    "model": "Radixact X9",
+
+    "aliases": [
+        "Radixact X9",
+        "X9"
+    ],
+
+    "family": "Radixact",
+    "series": "X9",
+    "generation": "4",
+
+    "machine_type": "Helical Tomotherapy",
+
+    "technology": {
+        "type": "LINAC",
+        "c_arm": false,
+        "ring_gantry": true,
+        "robotic": false,
+        "mr_linac": false,
+        "tomotherapy": true,
+        "proton": false,
+        "carbon": false
+    },
+
+    "validation": "confirmed",
+
+    "beam": {
+        "photon_energies": [
+            "6FFF"
+        ],
+
+        "electron_energies": [],
+
+        "flattening_filter": false,
+        "fff": true,
+
+        "dose_rate": {
+            "standard_mu_min": null,
+            "fff_mu_min": 1000
+        }
+    },
+
+    "mlc": {
+        "model": "Binary MLC",
+        "leaves": 64,
+        "leaf_width_mm": 6.25,
+        "optional": false
+    },
+
+    "jaw": {
+        "type": "Dynamic binary jaws",
+        "dynamic": true
+    },
+
+    "imaging": {
+        "cbct": false,
+        "kv": false,
+        "mv": true,
+        "surface_guidance": false
+    },
+
+    "techniques": {
+        "igrt": true,
+        "imrt": true,
+        "vmat": false,
+        "srs": false,
+        "srt": false,
+        "sbrt": true,
+        "adaptive": true,
+        "gating": true,
+        "tracking": true
+    },
+
+    "six_dof_couch": true,
+
+    "dicom_rt": true,
+
+    "installation_start": 2024,
+    "installation_end": null,
+
+    "production_status": "Active",
+    "support_status": "FULL",
+
+    "successor": "",
+
+    "notes": "Dernière génération Radixact intégrant ClearRT, VOLO Ultra, Synchrony de nouvelle génération et des performances de calcul améliorées."
+}
+]

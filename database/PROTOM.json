@@ -1,0 +1,142 @@
+[
+    {
+        "id": "PROTOM_RADIANCE_330",
+        "manufacturer": "ProTom International",
+        "manufacturer_country": "United States",
+        "model": "Radiance 330",
+        "aliases": [
+            "Radiance 330",
+            "Radiance 330 Proton Therapy System"
+        ],
+        "family": "Radiance",
+        "series": "330",
+        "generation": "1",
+        "machine_type": "Modular Proton Therapy System",
+        "technology": {
+            "type": "PROTON",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": true,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Pencil Beam Scanning",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": true,
+            "kv": true,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": true,
+            "adaptive": false,
+            "gating": true,
+            "tracking": true
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2014,
+        "installation_end": null,
+        "production_status": "In Production",
+        "support_status": null,
+        "successor": "Radiance 330-C",
+        "notes": "Système modulaire de protonthérapie utilisant un synchrotron compact (70–250 MeV, extensible à 330 MeV pour l'imagerie proton). Pencil Beam Scanning natif. Configurations mono- ou multi-salles."
+    },
+    {
+        "id": "PROTOM_RADIANCE_330_C",
+        "manufacturer": "ProTom International",
+        "manufacturer_country": "United States",
+        "model": "Radiance 330-C",
+        "aliases": [
+            "Radiance 330-C",
+            "R330-C"
+        ],
+        "family": "Radiance",
+        "series": "330-C",
+        "generation": "2",
+        "machine_type": "Fixed-Beam Proton Therapy System",
+        "technology": {
+            "type": "PROTON",
+            "c_arm": false,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": true,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Pencil Beam Scanning",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": true,
+            "kv": true,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": true,
+            "adaptive": true,
+            "gating": true,
+            "tracking": true
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2024,
+        "installation_end": null,
+        "production_status": "Pre-Commercial",
+        "support_status": null,
+        "successor": "",
+        "notes": "Version à faisceau fixe développée avec Leo Cancer Care. Positionnement vertical du patient, CT diagnostique à l'isocentre et Pencil Beam Scanning Fidelity."
+    }
+]

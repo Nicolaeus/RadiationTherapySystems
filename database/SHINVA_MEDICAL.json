@@ -1,0 +1,221 @@
+[
+    {
+        "id": "SHINVA_XHA600E",
+        "manufacturer": "Shinva Medical",
+        "manufacturer_country": "China",
+        "model": "XHA600E",
+        "aliases": [
+            "XHA600E"
+        ],
+        "family": "XHA",
+        "series": "600",
+        "generation": "1",
+        "machine_type": "C-arm LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6X"
+            ],
+            "electron_energies": [],
+            "flattening_filter": true,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": 600,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "MLC",
+            "leaves": 60,
+            "leaf_width_mm": 10,
+            "optional": true
+        },
+        "jaw": {
+            "type": "Secondary jaws",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": true,
+            "kv": true,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": true,
+            "srs": false,
+            "srt": true,
+            "sbrt": true,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2016,
+        "installation_end": null,
+        "production_status": "In Production",
+        "support_status": null,
+        "successor": "",
+        "notes": "Premier LINAC de radiothérapie développé par Shinva."
+    },
+    {
+        "id": "SHINVA_XHA600D",
+        "manufacturer": "Shinva Medical",
+        "manufacturer_country": "China",
+        "model": "XHA600D",
+        "aliases": [
+            "XHA600D"
+        ],
+        "family": "XHA",
+        "series": "600",
+        "generation": "2",
+        "machine_type": "Image-guided LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6X",
+                "10X"
+            ],
+            "electron_energies": [
+                "6E",
+                "9E",
+                "12E",
+                "15E"
+            ],
+            "flattening_filter": true,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": 600,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "MLC",
+            "leaves": 80,
+            "leaf_width_mm": 5,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Secondary jaws",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": true,
+            "kv": true,
+            "mv": true,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": true,
+            "srs": true,
+            "srt": true,
+            "sbrt": true,
+            "adaptive": false,
+            "gating": true,
+            "tracking": false
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2019,
+        "installation_end": null,
+        "production_status": "In Production",
+        "support_status": null,
+        "successor": "",
+        "notes": "Version évoluée avec IGRT complète."
+    },
+    {
+        "id": "SHINVA_XHA1400",
+        "manufacturer": "Shinva Medical",
+        "manufacturer_country": "China",
+        "model": "XHA1400",
+        "aliases": [
+            "XHA1400"
+        ],
+        "family": "XHA",
+        "series": "1400",
+        "generation": "3",
+        "machine_type": "FFF Image-guided LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6FFF"
+            ],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": true,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": 1400
+            }
+        },
+        "mlc": {
+            "model": "HD-MLC",
+            "leaves": 160,
+            "leaf_width_mm": 5,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Secondary jaws",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": true,
+            "kv": true,
+            "mv": false,
+            "surface_guidance": true
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": true,
+            "srs": true,
+            "srt": true,
+            "sbrt": true,
+            "adaptive": false,
+            "gating": true,
+            "tracking": false
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2022,
+        "installation_end": null,
+        "production_status": "In Production",
+        "support_status": null,
+        "successor": "",
+        "notes": "Plateforme FFF haut débit de Shinva."
+    }
+]

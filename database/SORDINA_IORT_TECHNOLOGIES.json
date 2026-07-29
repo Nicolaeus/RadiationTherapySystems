@@ -1,0 +1,526 @@
+[
+    {
+        "id": "SIT_NOVAC_7",
+        "manufacturer": "S.I.T. Sordina IORT Technologies",
+        "manufacturer_country": "Italy",
+        "model": "NOVAC 7",
+        "aliases": [
+            "NOVAC 7",
+            "Novac7"
+        ],
+        "family": "NOVAC",
+        "series": "7",
+        "generation": "1",
+        "machine_type": "Mobile Intraoperative Electron LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [],
+            "electron_energies": [
+                "3E",
+                "5E",
+                "7E"
+            ],
+            "flattening_filter": false,
+            "fff": true,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "PMMA Applicators",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": false,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": false,
+        "installation_start": 1997,
+        "installation_end": 2003,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "NOVAC 11",
+        "notes": "Premier accélérateur mobile dédié à la radiothérapie peropératoire (IOeRT), développé par NRT puis intégré à SIT."
+    },
+    {
+        "id": "SIT_NOVAC_11",
+        "manufacturer": "S.I.T. Sordina IORT Technologies",
+        "manufacturer_country": "Italy",
+        "model": "NOVAC 11",
+        "aliases": [
+            "NOVAC11",
+            "NOVAC 11"
+        ],
+        "family": "NOVAC",
+        "series": "11",
+        "generation": "2",
+        "machine_type": "Mobile Intraoperative Electron LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [],
+            "electron_energies": [
+                "4E",
+                "6E",
+                "8E",
+                "10E"
+            ],
+            "flattening_filter": false,
+            "fff": true,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "PMMA Applicators",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": false,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": false,
+        "installation_start": 2003,
+        "installation_end": null,
+        "production_status": "In Production",
+        "support_status": null,
+        "successor": "LIAC",
+        "notes": "Évolution du NOVAC 7 avec énergie maximale de 10 MeV et interface homme-machine modernisée."
+    },
+    {
+        "id": "SIT_LIAC_10",
+        "manufacturer": "S.I.T. Sordina IORT Technologies",
+        "manufacturer_country": "Italy",
+        "model": "LIAC 10",
+        "aliases": [
+            "LIAC 10",
+            "LIAC 10 MeV"
+        ],
+        "family": "LIAC",
+        "series": "10",
+        "generation": "3",
+        "machine_type": "Mobile Intraoperative Electron LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [],
+            "electron_energies": [
+                "4E",
+                "6E",
+                "8E",
+                "10E"
+            ],
+            "flattening_filter": false,
+            "fff": true,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "PMMA Applicators",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": false,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": false,
+        "installation_start": 2003,
+        "installation_end": 2017,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "LIAC HWL 10",
+        "notes": "Version 10 MeV du LIAC. Applicateurs PMMA avec hard-docking disponibles de 30 à 120 mm et angles 0°, 15°, 30° et 45°."
+    },
+    {
+        "id": "SIT_LIAC_12",
+        "manufacturer": "S.I.T. Sordina IORT Technologies",
+        "manufacturer_country": "Italy",
+        "model": "LIAC 12",
+        "aliases": [
+            "LIAC 12",
+            "LIAC 12 MeV"
+        ],
+        "family": "LIAC",
+        "series": "12",
+        "generation": "3",
+        "machine_type": "Mobile Intraoperative Electron LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [],
+            "electron_energies": [
+                "6E",
+                "8E",
+                "10E",
+                "12E"
+            ],
+            "flattening_filter": false,
+            "fff": true,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "PMMA Applicators",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": false,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": false,
+        "installation_start": 2003,
+        "installation_end": 2017,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "LIAC HWL 12",
+        "notes": "Version 12 MeV du LIAC avec quatre énergies (6, 8, 10 et 12 MeV)."
+    },
+    {
+        "id": "SIT_LIAC_HWL_10",
+        "manufacturer": "S.I.T. Sordina IORT Technologies",
+        "manufacturer_country": "Italy",
+        "model": "LIAC HWL 10",
+        "aliases": [
+            "LIAC HWL 10",
+            "LIAC HWL 10 MeV"
+        ],
+        "family": "LIAC HWL",
+        "series": "10",
+        "generation": "4",
+        "machine_type": "Mobile Intraoperative Electron LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [],
+            "electron_energies": [
+                "4E",
+                "6E",
+                "8E",
+                "10E"
+            ],
+            "flattening_filter": false,
+            "fff": true,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "PMMA Hard-Docking Applicators",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": false,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": false,
+        "installation_start": 2017,
+        "installation_end": null,
+        "production_status": "In Production",
+        "support_status": null,
+        "successor": "",
+        "notes": "Version HWL avec blindage renforcé, dose par impulsion augmentée, applicateurs raccourcis et logiciel Monte Carlo de commissioning."
+    },
+    {
+        "id": "SIT_LIAC_HWL_12",
+        "manufacturer": "S.I.T. Sordina IORT Technologies",
+        "manufacturer_country": "Italy",
+        "model": "LIAC HWL 12",
+        "aliases": [
+            "LIAC HWL 12",
+            "LIAC HWL 12 MeV"
+        ],
+        "family": "LIAC HWL",
+        "series": "12",
+        "generation": "4",
+        "machine_type": "Mobile Intraoperative Electron LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [],
+            "electron_energies": [
+                "6E",
+                "8E",
+                "10E",
+                "12E"
+            ],
+            "flattening_filter": false,
+            "fff": true,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "PMMA Hard-Docking Applicators",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": false,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": false,
+        "installation_start": 2017,
+        "installation_end": null,
+        "production_status": "In Production",
+        "support_status": null,
+        "successor": "LIAC S",
+        "notes": "Dernière génération clinique de la plateforme LIAC avec blindage interne amélioré, débit de dose accru, applicateurs hard-docking et logiciel Monte Carlo intégré."
+    },
+    {
+        "id": "SIT_LIAC_S",
+        "manufacturer": "S.I.T. Sordina IORT Technologies",
+        "manufacturer_country": "Italy",
+        "model": "LIAC S",
+        "aliases": [
+            "LIAC S",
+            "LIAC S 12 MeV"
+        ],
+        "family": "LIAC",
+        "series": "S",
+        "generation": "5",
+        "machine_type": "Mobile Intraoperative Electron LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [],
+            "electron_energies": [
+                "6E",
+                "8E",
+                "10E",
+                "12E"
+            ],
+            "flattening_filter": false,
+            "fff": true,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "PMMA Hard-Docking Applicators",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": false,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": false,
+        "installation_start": 2019,
+        "installation_end": null,
+        "production_status": "In Production",
+        "support_status": null,
+        "successor": "",
+        "notes": "Dernière génération du LIAC. Version commerciale unique 12 MeV (6/8/10/12 MeV). Nouvelle unité de contrôle, télécommande redessinée et applicateurs PMMA raccourcis de 40 ou 50 cm."
+    }
+]

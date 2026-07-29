@@ -1,0 +1,72 @@
+[
+    {
+        "id": "LEO_MARIE",
+        "manufacturer": "Leo Cancer Care",
+        "manufacturer_country": "United Kingdom",
+        "model": "Marie",
+        "aliases": [
+            "Marie",
+            "Marie®"
+        ],
+        "family": "Upright Radiotherapy",
+        "series": "",
+        "generation": "1",
+        "machine_type": "Beam-Agnostic Upright Particle Therapy Platform",
+        "technology": {
+            "type": "PARTICLE",
+            "c_arm": false,
+            "ring_gantry": false,
+            "robotic": true,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": true,
+            "carbon": true
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "External Beam Provider",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": false,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": true,
+            "adaptive": true,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2025,
+        "installation_end": null,
+        "production_status": "In Production",
+        "support_status": null,
+        "successor": "",
+        "notes": "Plateforme de traitement en position verticale comprenant un système de positionnement patient 6D et un scanner CT fan-beam. Compatible avec tout faisceau fixe (protons, ions carbone, BNCT, FLASH). Remplace le gantry rotatif par une rotation lente du patient afin de réduire l'encombrement, le coût et la complexité des installations."
+    }
+]

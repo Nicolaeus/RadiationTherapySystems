@@ -1,0 +1,945 @@
+[
+    {
+        "id": "BEST_THERATRON_JUNIOR",
+        "manufacturer": "Best Theratronics",
+        "manufacturer_country": "Canada",
+        "model": "Theratron Junior",
+        "aliases": [
+            "AECL Theratron Junior",
+            "Theratron Junior"
+        ],
+        "family": "Theratron",
+        "series": "Junior",
+        "generation": "1",
+        "machine_type": "Telecobalt Unit",
+        "technology": {
+            "type": "COBALT60",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "Co-60"
+            ],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Primary and secondary jaws",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": false,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": false,
+        "installation_start": 1951,
+        "installation_end": 1960,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "Theratron 60",
+        "notes": "Premier télécobalt commercial développé par Atomic Energy of Canada Limited (AECL). Utilisait une source de cobalt-60 pour la radiothérapie externe."
+    },
+    {
+        "id": "BEST_THERATRON_60",
+        "manufacturer": "Best Theratronics",
+        "manufacturer_country": "Canada",
+        "model": "Theratron 60",
+        "aliases": [
+            "AECL Theratron 60",
+            "Theratron 60"
+        ],
+        "family": "Theratron",
+        "series": "60",
+        "generation": "2",
+        "machine_type": "Telecobalt Unit",
+        "technology": {
+            "type": "COBALT60",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "Co-60"
+            ],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Primary and secondary jaws",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": false,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": false,
+        "installation_start": 1956,
+        "installation_end": 1965,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "Theratron 80",
+        "notes": "Deuxième génération de télécobalt AECL. Géométrie de traitement améliorée, largement diffusée dans les centres de radiothérapie durant les années 1960."
+    },
+    {
+        "id": "BEST_THERATRON_80",
+        "manufacturer": "Best Theratronics",
+        "manufacturer_country": "Canada",
+        "model": "Theratron 80",
+        "aliases": [
+            "AECL Theratron 80",
+            "Theratron 80"
+        ],
+        "family": "Theratron",
+        "series": "80",
+        "generation": "3",
+        "machine_type": "Telecobalt Unit",
+        "technology": {
+            "type": "COBALT60",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "Co-60"
+            ],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Primary and secondary jaws",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": false,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": false,
+        "installation_start": 1964,
+        "installation_end": 1977,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "Theratron 780",
+        "notes": "Troisième génération de télécobalt AECL. Machine isocentrique largement diffusée dans les années 1960 et 1970, avec de nombreuses installations dans le monde."
+    },
+    {
+        "id": "BEST_THERATRON_780",
+        "manufacturer": "Best Theratronics",
+        "manufacturer_country": "Canada",
+        "model": "Theratron 780",
+        "aliases": [
+            "AECL Theratron 780",
+            "Theratron 780"
+        ],
+        "family": "Theratron",
+        "series": "780",
+        "generation": "4",
+        "machine_type": "Isocentric Telecobalt Unit",
+        "technology": {
+            "type": "COBALT60",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "Co-60"
+            ],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": true
+        },
+        "jaw": {
+            "type": "Primary and secondary jaws",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": false,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": false,
+        "installation_start": 1977,
+        "installation_end": 1985,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "Theratron 780C",
+        "notes": "Télécobalt isocentrique de quatrième génération développé par AECL. Très largement diffusé à l'international, avec plus de 400 installations. Compatible avec des traitements statiques et en arc."
+    },
+    {
+        "id": "BEST_THERATRON_780C",
+        "manufacturer": "Best Theratronics",
+        "manufacturer_country": "Canada",
+        "model": "Theratron 780C",
+        "aliases": [
+            "AECL Theratron 780C",
+            "Theratron 780C"
+        ],
+        "family": "Theratron",
+        "series": "780C",
+        "generation": "5",
+        "machine_type": "Computerized Isocentric Telecobalt Unit",
+        "technology": {
+            "type": "COBALT60",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "Co-60"
+            ],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": true
+        },
+        "jaw": {
+            "type": "Primary and secondary jaws",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": false,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": false,
+        "installation_start": 1985,
+        "installation_end": 1996,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "Theratron 780E",
+        "notes": "Version modernisée du Theratron 780 avec console de commande informatisée, améliorations de sécurité, minuterie redondante conforme aux normes IEC et nombreuses améliorations mécaniques. Modèle largement utilisé dans les années 1980 et 1990."
+    },
+    {
+        "id": "BEST_THERATRON_780E",
+        "manufacturer": "Best Theratronics",
+        "manufacturer_country": "Canada",
+        "model": "Theratron 780E",
+        "aliases": [
+            "Theratron 780E",
+            "AECL Theratron 780E",
+            "MDS Nordion Theratron 780E"
+        ],
+        "family": "Theratron",
+        "series": "780E",
+        "generation": "6",
+        "machine_type": "Computerized Isocentric Telecobalt Unit",
+        "technology": {
+            "type": "COBALT60",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "Co-60"
+            ],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": true
+        },
+        "jaw": {
+            "type": "Primary and secondary jaws",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": false,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": false,
+        "installation_start": 1997,
+        "installation_end": 1999,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "Theratron Elite",
+        "notes": "Évolution directe du Theratron 780C. Blindage renforcé au niveau de la tête d'irradiation, amélioration des dispositifs de sécurité, conformité aux normes IEC et architecture mécanique conservée. Compatible avec les traitements fixes et en arc."
+    },
+    {
+        "id": "BEST_THERATRON_ELITE",
+        "manufacturer": "Best Theratronics",
+        "manufacturer_country": "Canada",
+        "model": "Theratron Elite",
+        "aliases": [
+            "Theratron Elite",
+            "Elite",
+            "Elite 80",
+            "Elite 100"
+        ],
+        "family": "Theratron",
+        "series": "Elite",
+        "generation": "7",
+        "machine_type": "Computerized Isocentric Telecobalt Unit",
+        "technology": {
+            "type": "COBALT60",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "Co-60"
+            ],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": true
+        },
+        "jaw": {
+            "type": "Primary and secondary jaws",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": false,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": true,
+        "installation_start": 1999,
+        "installation_end": 2008,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "Theratron Equinox",
+        "notes": "Version entièrement informatisée de la gamme Theratron avec interface graphique, fonctions Record & Verify, disponible en configurations SAD 80 cm et 100 cm."
+    },
+    {
+        "id": "BEST_THERATRON_1000",
+        "manufacturer": "Best Theratronics",
+        "manufacturer_country": "Canada",
+        "model": "Theratron 1000",
+        "aliases": [
+            "AECL Theratron 1000",
+            "Theratron 1000"
+        ],
+        "family": "Theratron",
+        "series": "1000",
+        "generation": "5",
+        "machine_type": "Isocentric Telecobalt Unit",
+        "technology": {
+            "type": "COBALT60",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "Co-60"
+            ],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": true
+        },
+        "jaw": {
+            "type": "Primary and secondary jaws",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": false,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": false,
+        "installation_start": 1988,
+        "installation_end": 1996,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "Theratron 1000E",
+        "notes": "Version 100 cm SAD de la famille Theratron, destinée aux traitements isocentriques."
+    },
+    {
+        "id": "BEST_THERATRON_1000E",
+        "manufacturer": "Best Theratronics",
+        "manufacturer_country": "Canada",
+        "model": "Theratron 1000E",
+        "aliases": [
+            "Theratron 1000E",
+            "AECL Theratron 1000E",
+            "MDS Nordion Theratron 1000E"
+        ],
+        "family": "Theratron",
+        "series": "1000E",
+        "generation": "6",
+        "machine_type": "Computerized Isocentric Telecobalt Unit",
+        "technology": {
+            "type": "COBALT60",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "Co-60"
+            ],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": true
+        },
+        "jaw": {
+            "type": "Primary and secondary jaws",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": false,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": false,
+        "installation_start": 1997,
+        "installation_end": 2008,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "Theratron Elite",
+        "notes": "Évolution informatisée du Theratron 1000 avec amélioration des systèmes de sécurité et de contrôle."
+    },
+    {
+        "id": "BEST_EQUINOX_80",
+        "manufacturer": "Best Theratronics",
+        "manufacturer_country": "Canada",
+        "model": "Equinox 80",
+        "aliases": [
+            "Theratron Equinox 80",
+            "Equinox-80",
+            "Equinox"
+        ],
+        "family": "Equinox",
+        "series": "80",
+        "generation": "8",
+        "machine_type": "Computerized Isocentric Telecobalt Unit",
+        "technology": {
+            "type": "COBALT60",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "Co-60"
+            ],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "Best MLC",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": true
+        },
+        "jaw": {
+            "type": "Asymmetric jaws",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": true,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2008,
+        "installation_end": null,
+        "production_status": "In Production",
+        "support_status": null,
+        "successor": "",
+        "notes": "Version 80 cm SAD de la plateforme Equinox avec collimateurs asymétriques, coin motorisé, table Avanza et compatibilité Record & Verify."
+    },
+    {
+        "id": "BEST_EQUINOX_100",
+        "manufacturer": "Best Theratronics",
+        "manufacturer_country": "Canada",
+        "model": "Equinox 100",
+        "aliases": [
+            "Theratron Equinox 100",
+            "Equinox-100",
+            "Equinox"
+        ],
+        "family": "Equinox",
+        "series": "100",
+        "generation": "8",
+        "machine_type": "Computerized Isocentric Telecobalt Unit",
+        "technology": {
+            "type": "COBALT60",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "Co-60"
+            ],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "Best MLC",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": true
+        },
+        "jaw": {
+            "type": "Asymmetric jaws",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": true,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2008,
+        "installation_end": null,
+        "production_status": "In Production",
+        "support_status": null,
+        "successor": "",
+        "notes": "Version 100 cm SAD de la plateforme Equinox avec collimateurs asymétriques, coin motorisé, table Avanza et compatibilité Record & Verify."
+    },
+    {
+        "id": "BEST_PHOENIX",
+        "manufacturer": "Best Theratronics",
+        "manufacturer_country": "Canada",
+        "model": "Phoenix",
+        "aliases": [
+            "Theratron Phoenix",
+            "Phoenix"
+        ],
+        "family": "Phoenix",
+        "series": "",
+        "generation": "8",
+        "machine_type": "Economical Telecobalt Unit",
+        "technology": {
+            "type": "COBALT60",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "Co-60"
+            ],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Symmetric jaws",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": false,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": true,
+        "installation_start": 2005,
+        "installation_end": null,
+        "production_status": "In Production",
+        "support_status": null,
+        "successor": "GammaBeam 100-80",
+        "notes": "Plateforme simplifiée destinée aux centres nécessitant une maintenance minimale. Architecture robuste avec automatisation réduite."
+    },
+    {
+        "id": "BEST_GAMMABEAM_100_80",
+        "manufacturer": "Best Theratronics",
+        "manufacturer_country": "Canada",
+        "model": "GammaBeam 100-80",
+        "aliases": [
+            "GammaBeam 100",
+            "GammaBeam 100-80",
+            "GB100-80"
+        ],
+        "family": "GammaBeam",
+        "series": "100-80",
+        "generation": "1",
+        "machine_type": "Computerized Telecobalt Unit",
+        "technology": {
+            "type": "COBALT60",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "Co-60"
+            ],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": true
+        },
+        "jaw": {
+            "type": "Asymmetric jaws",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": true,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": true,
+        "installation_start": 2016,
+        "installation_end": null,
+        "production_status": "In Production",
+        "support_status": null,
+        "successor": "",
+        "notes": "Évolution du Theratron Phoenix avec écran tactile graphique, collimateurs asymétriques, double minuterie indépendante, alimentation de secours intégrée et conformité IEC. Disponible uniquement en configuration SAD 80 cm."
+    }
+]

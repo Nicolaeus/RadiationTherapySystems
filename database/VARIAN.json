@@ -1,0 +1,1183 @@
+[
+    {
+        "id": "VARIAN_CLINAC_600C",
+        "manufacturer": "Varian",
+        "manufacturer_country": "USA",
+        "model": "Clinac 600C",
+        "aliases": [
+            "CLINAC 600C",
+            "Clinac 600 C"
+        ],
+        "family": "Clinac",
+        "series": "600",
+        "generation": "",
+        "machine_type": "C-arm LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6X"
+            ],
+            "electron_energies": [],
+            "flattening_filter": true,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": 600,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Secondary jaws",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": false,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": true,
+        "installation_start": 1989,
+        "installation_end": null,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "Clinac 6EX",
+        "notes": "Premier accélérateur Clinac basse énergie largement diffusé."
+    },
+    {
+        "id": "VARIAN_CLINAC_2100C",
+        "manufacturer": "Varian",
+        "manufacturer_country": "USA",
+        "model": "Clinac 2100C",
+        "aliases": [
+            "CLINAC 2100 C",
+            "Clinac 2100 C",
+            "Clinac2100C"
+        ],
+        "family": "Clinac",
+        "series": "2100",
+        "generation": "",
+        "machine_type": "C-arm LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6X",
+                "15X"
+            ],
+            "electron_energies": [
+                "6E",
+                "9E",
+                "12E",
+                "15E",
+                "18E",
+                "22E"
+            ],
+            "flattening_filter": true,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": 600,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Secondary jaws",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": true,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": true,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": true,
+        "installation_start": 1990,
+        "installation_end": null,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "Clinac 2100C/D",
+        "notes": "Accélérateur Clinac historique très largement installé."
+    },
+    {
+        "id": "VARIAN_CLINAC_2100CD",
+        "manufacturer": "Varian",
+        "manufacturer_country": "USA",
+        "model": "Clinac 2100C/D",
+        "aliases": [
+            "CLINAC 2100CD",
+            "Clinac 2100 C/D",
+            "2100CD"
+        ],
+        "family": "Clinac",
+        "series": "2100",
+        "generation": "C/D",
+        "machine_type": "C-arm LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6X",
+                "15X"
+            ],
+            "electron_energies": [
+                "6E",
+                "9E",
+                "12E",
+                "15E",
+                "18E",
+                "22E"
+            ],
+            "flattening_filter": true,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": 600,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "Millennium 120",
+            "leaves": 120,
+            "leaf_width_mm": 5,
+            "optional": true
+        },
+        "jaw": {
+            "type": "Secondary jaws",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": true,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": true,
+        "installation_start": 1996,
+        "installation_end": 2005,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "Clinac iX",
+        "notes": "Version numérique du Clinac 2100. Millennium 120 disponible en option selon la configuration."
+    },
+    {
+        "id": "VARIAN_CLINAC_2300CD",
+        "manufacturer": "Varian",
+        "manufacturer_country": "USA",
+        "model": "Clinac 2300C/D",
+        "aliases": [
+            "CLINAC 2300CD",
+            "CLINAC 2300 C/D",
+            "Clinac 2300 C/D"
+        ],
+        "family": "Clinac",
+        "series": "2300",
+        "generation": "C/D",
+        "machine_type": "C-arm LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6X",
+                "15X",
+                "18X"
+            ],
+            "electron_energies": [
+                "6E",
+                "9E",
+                "12E",
+                "15E",
+                "18E",
+                "22E"
+            ],
+            "flattening_filter": true,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": 600,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "Millennium 120",
+            "leaves": 120,
+            "leaf_width_mm": 5,
+            "optional": true
+        },
+        "jaw": {
+            "type": "Secondary jaws",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": true,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": true,
+        "installation_start": 1997,
+        "installation_end": 2005,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "Clinac iX",
+        "notes": "Version haute énergie de la plateforme Clinac C/D. Millennium 120 disponible selon la configuration."
+    },
+    {
+        "id": "VARIAN_CLINAC_6EX",
+        "manufacturer": "Varian",
+        "manufacturer_country": "USA",
+        "model": "Clinac 6EX",
+        "aliases": [
+            "CLINAC 6EX",
+            "Clinac 6 EX",
+            "6EX"
+        ],
+        "family": "Clinac",
+        "series": "EX",
+        "generation": "EX",
+        "machine_type": "Digital C-arm LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6X"
+            ],
+            "electron_energies": [
+                "6E",
+                "9E",
+                "12E",
+                "15E",
+                "18E"
+            ],
+            "flattening_filter": true,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": 600,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "Millennium 120",
+            "leaves": 120,
+            "leaf_width_mm": 5,
+            "optional": true
+        },
+        "jaw": {
+            "type": "Secondary jaws",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": true,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": true,
+        "installation_start": 2000,
+        "installation_end": 2008,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "Clinac iX",
+        "notes": "Version numérique basse énergie de la génération EX. Millennium 120 disponible selon la configuration."
+    },
+    {
+        "id": "VARIAN_CLINAC_21EX",
+        "manufacturer": "Varian",
+        "manufacturer_country": "USA",
+        "model": "Clinac 21EX",
+        "aliases": [
+            "CLINAC 21EX",
+            "Clinac 21 EX",
+            "21EX"
+        ],
+        "family": "Clinac",
+        "series": "EX",
+        "generation": "EX",
+        "machine_type": "Digital C-arm LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6X",
+                "15X"
+            ],
+            "electron_energies": [
+                "6E",
+                "9E",
+                "12E",
+                "15E",
+                "18E",
+                "22E"
+            ],
+            "flattening_filter": true,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": 600,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "Millennium 120",
+            "leaves": 120,
+            "leaf_width_mm": 5,
+            "optional": true
+        },
+        "jaw": {
+            "type": "Secondary jaws",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": true,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": false,
+            "srs": true,
+            "srt": true,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": true,
+        "installation_start": 2000,
+        "installation_end": 2008,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "Clinac iX",
+        "notes": "Version haute énergie de la génération EX. Compatible avec des applications de radiochirurgie selon la configuration installée."
+    },
+    {
+        "id": "VARIAN_CLINAC_IX",
+        "manufacturer": "Varian",
+        "manufacturer_country": "USA",
+        "model": "Clinac iX",
+        "aliases": [
+            "CLINAC IX",
+            "Clinac IX",
+            "Clinac iX",
+            "IX"
+        ],
+        "family": "Clinac",
+        "series": "iX",
+        "generation": "Digital",
+        "machine_type": "Digital C-arm LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6X",
+                "10X",
+                "15X"
+            ],
+            "electron_energies": [
+                "6E",
+                "9E",
+                "12E",
+                "15E",
+                "18E",
+                "22E"
+            ],
+            "flattening_filter": true,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": 600,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "Millennium 120",
+            "leaves": 120,
+            "leaf_width_mm": 5,
+            "optional": true
+        },
+        "jaw": {
+            "type": "Secondary jaws",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": true,
+            "kv": true,
+            "mv": true,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": false,
+            "srs": true,
+            "srt": true,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": true,
+            "tracking": false
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2005,
+        "installation_end": 2012,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "TrueBeam",
+        "notes": "Plateforme Clinac numérique intégrant On-Board Imager (OBI). Compatible RapidArc après mise à niveau selon la configuration."
+    },
+    {
+        "id": "VARIAN_TRILOGY",
+        "manufacturer": "Varian",
+        "manufacturer_country": "USA",
+        "model": "Trilogy",
+        "aliases": [
+            "TRILOGY",
+            "Varian Trilogy"
+        ],
+        "family": "Clinac",
+        "series": "Trilogy",
+        "generation": "Digital",
+        "machine_type": "Image-guided C-arm LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6X",
+                "10X",
+                "15X"
+            ],
+            "electron_energies": [
+                "6E",
+                "9E",
+                "12E",
+                "15E",
+                "18E",
+                "22E"
+            ],
+            "flattening_filter": true,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": 600,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "Millennium 120",
+            "leaves": 120,
+            "leaf_width_mm": 5,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Secondary jaws",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": true,
+            "kv": true,
+            "mv": true,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": true,
+            "srs": true,
+            "srt": true,
+            "sbrt": true,
+            "adaptive": false,
+            "gating": true,
+            "tracking": false
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2004,
+        "installation_end": 2012,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "TrueBeam",
+        "notes": "Plateforme haut de gamme Varian intégrant OBI, Exact IGRT et RapidArc selon la configuration installée."
+    },
+    {
+        "id": "VARIAN_TRUEBEAM",
+        "manufacturer": "Varian",
+        "manufacturer_country": "USA",
+        "model": "TrueBeam",
+        "aliases": [
+            "TRUEBEAM",
+            "True Beam",
+            "VARIAN TRUEBEAM"
+        ],
+        "family": "TrueBeam",
+        "series": "TrueBeam",
+        "generation": "1",
+        "machine_type": "Image-guided C-arm LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6X",
+                "10X",
+                "15X",
+                "6X-FFF",
+                "10X-FFF"
+            ],
+            "electron_energies": [
+                "6E",
+                "9E",
+                "12E",
+                "16E",
+                "20E"
+            ],
+            "flattening_filter": true,
+            "fff": true,
+            "dose_rate": {
+                "standard_mu_min": 600,
+                "fff_mu_min": 2400
+            }
+        },
+        "mlc": {
+            "model": "Millennium 120",
+            "leaves": 120,
+            "leaf_width_mm": 5,
+            "optional": true
+        },
+        "jaw": {
+            "type": "Secondary jaws",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": true,
+            "kv": true,
+            "mv": true,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": true,
+            "srs": true,
+            "srt": true,
+            "sbrt": true,
+            "adaptive": false,
+            "gating": true,
+            "tracking": false
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2010,
+        "installation_end": null,
+        "production_status": "Active",
+        "support_status": null,
+        "successor": "",
+        "notes": "Plateforme TrueBeam standard. Le type de MLC dépend de la configuration commandée (Millennium 120 ou HD120)."
+    },
+    {
+        "id": "VARIAN_TRUEBEAM_STX",
+        "manufacturer": "Varian",
+        "manufacturer_country": "USA",
+        "model": "TrueBeam STx",
+        "aliases": [
+            "TRUEBEAM STX",
+            "TrueBeamSTx",
+            "STX"
+        ],
+        "family": "TrueBeam",
+        "series": "STx",
+        "generation": "1",
+        "machine_type": "Stereotactic C-arm LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6X",
+                "10X",
+                "6X-FFF",
+                "10X-FFF"
+            ],
+            "electron_energies": [
+                "6E",
+                "9E",
+                "12E",
+                "16E",
+                "20E"
+            ],
+            "flattening_filter": true,
+            "fff": true,
+            "dose_rate": {
+                "standard_mu_min": 600,
+                "fff_mu_min": 2400
+            }
+        },
+        "mlc": {
+            "model": "HD120",
+            "leaves": 120,
+            "leaf_width_mm": 2.5,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Secondary jaws",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": true,
+            "kv": true,
+            "mv": true,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": true,
+            "srs": true,
+            "srt": true,
+            "sbrt": true,
+            "adaptive": false,
+            "gating": true,
+            "tracking": true
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2010,
+        "installation_end": null,
+        "production_status": "Active",
+        "support_status": null,
+        "successor": "",
+        "notes": "Version dédiée à la radiochirurgie stéréotaxique équipée de série du collimateur HD120."
+    },
+    {
+        "id": "VARIAN_EDGE",
+        "manufacturer": "Varian",
+        "manufacturer_country": "USA",
+        "model": "Edge",
+        "aliases": [
+            "EDGE",
+            "Varian Edge"
+        ],
+        "family": "Edge",
+        "series": "Edge",
+        "generation": "1",
+        "machine_type": "Stereotactic C-arm LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6X",
+                "10X",
+                "6X-FFF",
+                "10X-FFF"
+            ],
+            "electron_energies": [],
+            "flattening_filter": true,
+            "fff": true,
+            "dose_rate": {
+                "standard_mu_min": 600,
+                "fff_mu_min": 2400
+            }
+        },
+        "mlc": {
+            "model": "HD120",
+            "leaves": 120,
+            "leaf_width_mm": 2.5,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Secondary jaws",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": true,
+            "kv": true,
+            "mv": true,
+            "surface_guidance": true
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": true,
+            "srs": true,
+            "srt": true,
+            "sbrt": true,
+            "adaptive": false,
+            "gating": true,
+            "tracking": true
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2013,
+        "installation_end": null,
+        "production_status": "Active",
+        "support_status": null,
+        "successor": "",
+        "notes": "Plateforme dédiée à la radiochirurgie intracrânienne et extracrânienne basée sur l'architecture TrueBeam."
+    },
+    {
+        "id": "VARIAN_VITALBEAM",
+        "manufacturer": "Varian",
+        "manufacturer_country": "USA",
+        "model": "VitalBeam",
+        "aliases": [
+            "VITALBEAM",
+            "Varian VitalBeam"
+        ],
+        "family": "VitalBeam",
+        "series": "VitalBeam",
+        "generation": "1",
+        "machine_type": "Image-guided C-arm LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6X",
+                "10X",
+                "15X",
+                "6X-FFF",
+                "10X-FFF"
+            ],
+            "electron_energies": [
+                "6E",
+                "9E",
+                "12E",
+                "16E",
+                "20E"
+            ],
+            "flattening_filter": true,
+            "fff": true,
+            "dose_rate": {
+                "standard_mu_min": 600,
+                "fff_mu_min": 2400
+            }
+        },
+        "mlc": {
+            "model": "Millennium 120",
+            "leaves": 120,
+            "leaf_width_mm": 5,
+            "optional": true
+        },
+        "jaw": {
+            "type": "Secondary jaws",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": true,
+            "kv": true,
+            "mv": true,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": true,
+            "srs": true,
+            "srt": true,
+            "sbrt": true,
+            "adaptive": false,
+            "gating": true,
+            "tracking": false
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2015,
+        "installation_end": null,
+        "production_status": "Active",
+        "support_status": null,
+        "successor": "",
+        "notes": "Plateforme TrueBeam optimisée pour les marchés internationaux et les centres recherchant une configuration configurable."
+    },
+    {
+        "id": "VARIAN_HALCYON",
+        "manufacturer": "Varian",
+        "manufacturer_country": "USA",
+        "model": "Halcyon",
+        "aliases": [
+            "HALCYON",
+            "Halcyon 1.0",
+            "Halcyon 2.0"
+        ],
+        "family": "Halcyon",
+        "series": "Halcyon",
+        "generation": "2.0",
+        "machine_type": "Ring-gantry LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": false,
+            "ring_gantry": true,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6X-FFF"
+            ],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": true,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": 800
+            }
+        },
+        "mlc": {
+            "model": "Dual-layer SX2",
+            "leaves": 58,
+            "leaf_width_mm": 10,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Jawless",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": true,
+            "kv": true,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": true,
+            "srs": false,
+            "srt": true,
+            "sbrt": true,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2017,
+        "installation_end": null,
+        "production_status": "Active",
+        "support_status": null,
+        "successor": "Ethos",
+        "notes": "Accélérateur à anneau (ring gantry) utilisant un collimateur multilames double couche sans mâchoires secondaires."
+    },
+    {
+        "id": "VARIAN_ETHOS",
+        "manufacturer": "Varian",
+        "manufacturer_country": "USA",
+        "model": "Ethos",
+        "aliases": [
+            "ETHOS",
+            "Ethos Therapy"
+        ],
+        "family": "Ethos",
+        "series": "Ethos",
+        "generation": "1",
+        "machine_type": "Adaptive ring-gantry LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": false,
+            "ring_gantry": true,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6X-FFF"
+            ],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": true,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": 800
+            }
+        },
+        "mlc": {
+            "model": "Dual-layer SX2",
+            "leaves": 58,
+            "leaf_width_mm": 10,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Jawless",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": true,
+            "kv": true,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": true,
+            "srs": false,
+            "srt": true,
+            "sbrt": true,
+            "adaptive": true,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2020,
+        "installation_end": null,
+        "production_status": "Active",
+        "support_status": null,
+        "successor": "",
+        "notes": "Plateforme dédiée à la radiothérapie adaptative en ligne (Adaptive RT) basée sur l'architecture Halcyon."
+    },
+    {
+        "id": "VARIAN_NOVALIS_TX",
+        "manufacturer": "Varian / Brainlab",
+        "manufacturer_country": "USA / Germany",
+        "model": "Novalis Tx",
+        "aliases": [
+            "NOVALIS TX",
+            "NovalisTX",
+            "Brainlab Novalis Tx"
+        ],
+        "family": "Novalis",
+        "series": "Tx",
+        "generation": "1",
+        "machine_type": "Stereotactic C-arm LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6X",
+                "10X"
+            ],
+            "electron_energies": [],
+            "flattening_filter": true,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": 1000,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "HD120",
+            "leaves": 120,
+            "leaf_width_mm": 2.5,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Secondary jaws",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": true,
+            "kv": true,
+            "mv": true,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": true,
+            "srs": true,
+            "srt": true,
+            "sbrt": true,
+            "adaptive": false,
+            "gating": true,
+            "tracking": true
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2007,
+        "installation_end": 2014,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "TrueBeam STx",
+        "notes": "Plateforme développée conjointement par Varian et Brainlab pour les traitements stéréotaxiques."
+    }
+]

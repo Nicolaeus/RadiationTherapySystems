@@ -1,0 +1,72 @@
+[
+    {
+        "id": "PCURE_P_CURE",
+        "manufacturer": "P-Cure Ltd.",
+        "manufacturer_country": "Israel",
+        "model": "P-Cure",
+        "aliases": [
+            "P-Cure",
+            "P-Cure Proton Therapy System"
+        ],
+        "family": "P-Cure",
+        "series": "",
+        "generation": "1",
+        "machine_type": "Compact Single-Room Proton Therapy System",
+        "technology": {
+            "type": "PROTON",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": true,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Pencil Beam Scanning",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": true,
+            "kv": true,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": true,
+            "adaptive": false,
+            "gating": true,
+            "tracking": true
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2017,
+        "installation_end": null,
+        "production_status": "In Production",
+        "support_status": null,
+        "successor": "",
+        "notes": "Système compact de protonthérapie utilisant un cyclotron supraconducteur de 230 MeV, un Pencil Beam Scanning et un traitement en position assise. L'architecture réduit la taille du gantry et l'emprise au sol par rapport aux centres de protonthérapie conventionnels."
+    }
+]

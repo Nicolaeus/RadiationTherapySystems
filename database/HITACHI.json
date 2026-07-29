@@ -1,0 +1,347 @@
+[
+    {
+        "id": "HITACHI_PROBEAT",
+        "manufacturer": "Hitachi",
+        "manufacturer_country": "Japan",
+        "model": "PROBEAT",
+        "aliases": [
+            "PROBEAT"
+        ],
+        "family": "PROBEAT",
+        "series": "",
+        "generation": "1",
+        "machine_type": "Multi-Room Proton Therapy System",
+        "technology": {
+            "type": "PROTON",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": true,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Passive Scattering / Spot Scanning",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": true,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": true,
+            "adaptive": false,
+            "gating": true,
+            "tracking": false
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 1998,
+        "installation_end": 2014,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "PROBEAT-RT",
+        "notes": "Première plateforme commerciale Hitachi de protonthérapie basée sur un synchrotron 220 MeV. Initialement disponible avec diffusion passive puis avec Spot Scanning."
+    },
+    {
+        "id": "HITACHI_PROBEAT_RT",
+        "manufacturer": "Hitachi",
+        "manufacturer_country": "Japan",
+        "model": "PROBEAT-RT",
+        "aliases": [
+            "PROBEAT-RT"
+        ],
+        "family": "PROBEAT",
+        "series": "RT",
+        "generation": "2",
+        "machine_type": "Compact Single-Room Proton Therapy System",
+        "technology": {
+            "type": "PROTON",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": true,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Pencil Beam Scanning",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": true,
+            "kv": true,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": true,
+            "adaptive": false,
+            "gating": true,
+            "tracking": true
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2014,
+        "installation_end": 2015,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "PROBEAT-V",
+        "notes": "Version compacte mono-salle avec synchrotron 220 MeV, CBCT embarqué et suivi tumoral temps réel."
+    },
+    {
+        "id": "HITACHI_PROBEAT_V",
+        "manufacturer": "Hitachi",
+        "manufacturer_country": "Japan",
+        "model": "PROBEAT-V",
+        "aliases": [
+            "PROBEAT-V"
+        ],
+        "family": "PROBEAT",
+        "series": "V",
+        "generation": "3",
+        "machine_type": "Multi-Room Proton Therapy System",
+        "technology": {
+            "type": "PROTON",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": true,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Pencil Beam Scanning",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": true,
+            "kv": true,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": true,
+            "adaptive": false,
+            "gating": true,
+            "tracking": true
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2016,
+        "installation_end": null,
+        "production_status": "In Production",
+        "support_status": null,
+        "successor": "PROBEAT-CR",
+        "notes": "Plateforme clinique de troisième génération avec Pencil Beam Scanning, CBCT, gantry rotatif 360° et accessoires de limitation par rayons X."
+    },
+    {
+        "id": "HITACHI_PROBEAT_CR",
+        "manufacturer": "Hitachi",
+        "manufacturer_country": "Japan",
+        "model": "PROBEAT-CR",
+        "aliases": [
+            "PROBEAT-CR"
+        ],
+        "family": "PROBEAT",
+        "series": "CR",
+        "generation": "4",
+        "machine_type": "Multi-Room Proton Therapy System",
+        "technology": {
+            "type": "PROTON",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": true,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Pencil Beam Scanning",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": true,
+            "kv": true,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": true,
+            "adaptive": false,
+            "gating": true,
+            "tracking": true
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2019,
+        "installation_end": null,
+        "production_status": "In Production",
+        "support_status": null,
+        "successor": "PROBEAT-FR",
+        "notes": "Modification du PROBEAT-V adaptée à de nouveaux sites cliniques. Architecture proton basée sur un synchrotron 230 MeV avec Pencil Beam Scanning."
+    },
+    {
+        "id": "HITACHI_PROBEAT_FR",
+        "manufacturer": "Hitachi",
+        "manufacturer_country": "Japan",
+        "model": "PROBEAT-FR",
+        "aliases": [
+            "PROBEAT-FR"
+        ],
+        "family": "PROBEAT",
+        "series": "FR",
+        "generation": "5",
+        "machine_type": "Multi-Room Proton Therapy System",
+        "technology": {
+            "type": "PROTON",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": true,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Pencil Beam Scanning",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": true,
+            "kv": true,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": true,
+            "adaptive": false,
+            "gating": true,
+            "tracking": true
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2023,
+        "installation_end": null,
+        "production_status": "In Production",
+        "support_status": null,
+        "successor": "",
+        "notes": "Évolution du PROBEAT-CR avec gantry de plus grand diamètre, moving snout, mode CBCT rapide et option CT en salle. Compatible avec les installations multi-salles de dernière génération."
+    }
+]

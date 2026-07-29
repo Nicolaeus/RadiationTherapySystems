@@ -1,0 +1,210 @@
+[
+    {
+        "id": "VARIAN_PROBEAM",
+        "manufacturer": "Varian Medical Systems",
+        "manufacturer_country": "United States",
+        "model": "ProBeam",
+        "aliases": [
+            "ProBeam"
+        ],
+        "family": "ProBeam",
+        "series": "",
+        "generation": "1",
+        "machine_type": "Multi-Room Proton Therapy System",
+        "technology": {
+            "type": "PROTON",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": true,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Pencil Beam Scanning",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": true,
+            "kv": true,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": true,
+            "adaptive": false,
+            "gating": true,
+            "tracking": true
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2011,
+        "installation_end": null,
+        "production_status": "In Production",
+        "support_status": null,
+        "successor": "ProBeam 360°",
+        "notes": "Première plateforme clinique Varian de protonthérapie basée sur un cyclotron supraconducteur de 250 MeV avec Pencil Beam Scanning."
+    },
+    {
+        "id": "VARIAN_PROBEAM_COMPACT",
+        "manufacturer": "Varian Medical Systems",
+        "manufacturer_country": "United States",
+        "model": "ProBeam Compact",
+        "aliases": [
+            "ProBeam Compact"
+        ],
+        "family": "ProBeam",
+        "series": "Compact",
+        "generation": "2",
+        "machine_type": "Compact Single-Room Proton Therapy System",
+        "technology": {
+            "type": "PROTON",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": true,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Pencil Beam Scanning",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": true,
+            "kv": true,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": true,
+            "adaptive": false,
+            "gating": true,
+            "tracking": true
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2018,
+        "installation_end": null,
+        "production_status": "In Production",
+        "support_status": null,
+        "successor": "ProBeam 360°",
+        "notes": "Version compacte mono-salle du ProBeam avec Pencil Beam Scanning et architecture optimisée pour réduire les coûts d'installation."
+    },
+    {
+        "id": "VARIAN_PROBEAM_360",
+        "manufacturer": "Varian Medical Systems",
+        "manufacturer_country": "United States",
+        "model": "ProBeam 360°",
+        "aliases": [
+            "ProBeam 360",
+            "ProBeam 360°"
+        ],
+        "family": "ProBeam",
+        "series": "360",
+        "generation": "3",
+        "machine_type": "Compact Proton Therapy System",
+        "technology": {
+            "type": "PROTON",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": true,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Pencil Beam Scanning",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": true,
+            "kv": true,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": true,
+            "adaptive": false,
+            "gating": true,
+            "tracking": true
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2019,
+        "installation_end": null,
+        "production_status": "In Production",
+        "support_status": null,
+        "successor": "",
+        "notes": "Plateforme compacte de nouvelle génération avec gantry isocentrique 360°, Pencil Beam Scanning haute définition, CBCT itératif et technologie RapidScan pour la gestion du mouvement. Disponible en configuration mono-salle puis multi-salles."
+    }
+]

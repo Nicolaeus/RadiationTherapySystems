@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Radiotherapy Equipment Database</title>
+
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/forms.css">
+    <link rel="stylesheet" href="css/tables.css">
+    <link rel="stylesheet" href="css/badges.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/machine_view.css">
+
+</head>
+
+<body>
+
+<header id="app-header">
+
+    <div class="header-left">
+
+        <h1>Radiotherapy Equipment Database</h1>
+
+        <div id="database-version">
+            Version —
+        </div>
+
+    </div>
+
+    <div class="header-right">
+
+        <div class="toolbar-group">
+
+            <button
+                id="btn-dashboard"
+                data-view="dashboard">
+
+                🏠 Dashboard
+
+            </button>
+
+        </div>
+
+        <div class="toolbar-separator"></div>
+
+        <div class="toolbar-group">
+
+            <button
+                id="btn-new-machine"
+                data-action="new-machine">
+
+                ➕ Nouveau
+
+            </button>
+
+            <button
+                id="btn-save"
+                data-action="save">
+
+                💾 Enregistrer
+
+            </button>
+
+        </div>
+
+        <div class="toolbar-separator"></div>
+
+        <div class="toolbar-group">
+
+            <button
+                id="btn-git-commit"
+                data-action="git-commit">
+
+                ✓ Commit
+
+            </button>
+
+            <button
+                id="btn-git-push"
+                data-action="git-push">
+
+                ⬆ Push
+
+            </button>
+
+        </div>
+
+    </div>
+
+</header>
+
+<div id="main-layout">
+
+    <!-- ================================================================= -->
+
+    <aside id="sidebar">
+
+        <section class="sidebar-section">
+
+            <h2>Recherche</h2>
+
+            <input id="search"
+                   type="text"
+                   placeholder="Recherche...">
+
+        </section>
+
+        <section class="sidebar-section">
+
+            <h2>Constructeurs</h2>
+
+            <div id="manufacturer-list">
+
+            </div>
+
+        </section>
+
+        <section class="sidebar-section">
+
+            <h2>Filtres</h2>
+
+            <div id="filters">
+
+                <!-- généré par JS -->
+
+            </div>
+
+        </section>
+
+    </aside>
+
+    <!-- ================================================================= -->
+
+    <main id="content">
+
+        <section id="dashboard-view">
+
+        </section>
+
+        <section id="machine-list-view">
+
+        </section>
+
+        <section id="machine-view">
+
+        </section>
+
+        <section id="editor-view">
+
+        </section>
+
+        <section id="compare-view">
+
+        </section>
+
+    </main>
+
+</div>
+
+<footer id="status-bar">
+
+    <div id="status-text">
+        Ready.
+    </div>
+
+    <div id="database-info">
+
+        <span id="manufacturer-count">
+            0 fabricants
+        </span>
+
+        <span>|</span>
+
+        <span id="machine-count">
+            0 machines
+        </span>
+
+    </div>
+
+</footer>
+
+<!-- ================================================================ -->
+
+<script src="js/utils.js"></script>
+
+<script src="js/database.js"></script>
+
+<script src="js/viewer.js"></script>
+
+<script src="js/editor.js"></script>
+
+<script src="js/search.js"></script>
+
+<script src="js/dashboard/dashboard_statistics.js"></script>
+
+<script src="js/dashboard/widgets/hero.js"></script>
+
+<script src="js/dashboard/widgets/metrics.js"></script>
+
+<script src="js/dashboard/widgets/technology.js"></script>
+
+<script src="js/dashboard/widgets/production.js"></script>
+
+<script src="js/dashboard/widgets/timeline.js"></script>
+
+<script src="js/dashboard.js"></script>
+
+<!-- -->
+
+<script src="js/compare.js"></script>
+
+<script src="js/git.js"></script>
+
+<!-- -->
+<script src="js/machine_view/components/utils.js"></script>
+<script src="js/machine_view/components/badge.js"></script>
+<script src="js/machine_view/components/field.js"></script>
+<script src="js/machine_view/components/summary.js"></script>
+<script src="js/machine_view/components/general.js"></script>
+<script src="js/machine_view/components/beam.js"></script>
+<script src="js/machine_view/components/imaging.js"></script>
+<script src="js/machine_view/components/mlc.js"></script>
+<script src="js/machine_view/components/techniques.js"></script>
+<script src="js/machine_view/components/notes.js"></script>
+<script src="js/machine_view/viewer_v2.js"></script>
+<!-- -->
+<script src="js/app.js"></script>
+
+</body>
+
+</html>

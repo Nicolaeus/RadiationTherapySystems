@@ -1,0 +1,281 @@
+[
+    {
+        "id": "IBA_PROTEUS",
+        "manufacturer": "IBA",
+        "manufacturer_country": "Belgium",
+        "model": "Proteus",
+        "aliases": [
+            "Proteus"
+        ],
+        "family": "Proteus",
+        "series": "",
+        "generation": "1",
+        "machine_type": "Multi-Room Proton Therapy System",
+        "technology": {
+            "type": "PROTON",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": true,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Passive Scattering",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": true,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": false,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": true,
+            "adaptive": false,
+            "gating": true,
+            "tracking": false
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 1998,
+        "installation_end": 2008,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "Proteus PLUS",
+        "notes": "Première plateforme commerciale IBA de protonthérapie basée sur un cyclotron isochrone fixe de 230 MeV avec diffusion passive."
+    },
+    {
+        "id": "IBA_PROTEUS_PLUS",
+        "manufacturer": "IBA",
+        "manufacturer_country": "Belgium",
+        "model": "Proteus PLUS",
+        "aliases": [
+            "Proteus Plus",
+            "Proteus+"
+        ],
+        "family": "Proteus",
+        "series": "PLUS",
+        "generation": "2",
+        "machine_type": "Multi-Room Proton Therapy System",
+        "technology": {
+            "type": "PROTON",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": true,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Pencil Beam Scanning / Passive Scattering",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": true,
+            "kv": true,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": true,
+            "adaptive": false,
+            "gating": true,
+            "tracking": true
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2009,
+        "installation_end": null,
+        "production_status": "In Production",
+        "support_status": null,
+        "successor": "Proteus SIX",
+        "notes": "Évolution de la plateforme Proteus intégrant le Pencil Beam Scanning, la diffusion passive, le CBCT et des configurations mono- ou multi-salles."
+    },
+    {
+        "id": "IBA_PROTEUS_ONE",
+        "manufacturer": "IBA",
+        "manufacturer_country": "Belgium",
+        "model": "ProteusONE",
+        "aliases": [
+            "Proteus ONE",
+            "Proteus®ONE"
+        ],
+        "family": "Proteus",
+        "series": "ONE",
+        "generation": "3",
+        "machine_type": "Compact Single-Room Proton Therapy System",
+        "technology": {
+            "type": "PROTON",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": true,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Pencil Beam Scanning",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": true,
+            "kv": true,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": true,
+            "adaptive": false,
+            "gating": true,
+            "tracking": false
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2014,
+        "installation_end": null,
+        "production_status": "In Production",
+        "support_status": null,
+        "successor": "Proteus235",
+        "notes": "Plateforme compacte mono-salle utilisant un cyclotron supraconducteur de 230 MeV, Pencil Beam Scanning natif, CBCT grand champ et gantry ouvert à 360°."
+    },
+    {
+        "id": "IBA_PROTEUS_235",
+        "manufacturer": "IBA",
+        "manufacturer_country": "Belgium",
+        "model": "Proteus235",
+        "aliases": [
+            "Proteus 235",
+            "Proteus®235"
+        ],
+        "family": "Proteus",
+        "series": "235",
+        "generation": "4",
+        "machine_type": "Scalable Proton Therapy Platform",
+        "technology": {
+            "type": "PROTON",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": true,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Pencil Beam Scanning",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": true,
+            "kv": true,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": true,
+            "adaptive": false,
+            "gating": true,
+            "tracking": true
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2022,
+        "installation_end": null,
+        "production_status": "In Production",
+        "support_status": null,
+        "successor": "",
+        "notes": "Plateforme proton modulaire de nouvelle génération servant de base aux solutions ProteusPLUS et ProteusONE. Compatible avec les futures technologies DynamicARC et ConformalFLASH après obtention des autorisations réglementaires."
+    }
+]

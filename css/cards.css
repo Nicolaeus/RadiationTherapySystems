@@ -1,0 +1,828 @@
+/*
+==============================================================================
+Radiotherapy Equipment Database
+Cards stylesheet
+
+Author : N N
+==============================================================================
+*/
+
+/*==============================================================================
+Variables
+==============================================================================*/
+
+:root{
+
+    --card-radius:18px;
+
+    --card-background:#ffffff;
+
+    --card-border:#dbe4ee;
+
+    --card-shadow:
+        0 2px 8px rgba(15,23,42,.05);
+
+    --card-shadow-hover:
+        0 14px 32px rgba(15,23,42,.10);
+
+    --card-transition:.18s;
+
+    --card-padding:20px;
+
+    --card-gap:18px;
+
+    --color-text:#0f172a;
+
+    --color-text-light:#64748b;
+
+    --color-background:#f8fafc;
+
+}
+
+
+/*==============================================================================
+Cards container
+==============================================================================*/
+
+.cards-container{
+
+    width:100%;
+
+    padding:24px;
+
+    box-sizing:border-box;
+
+}
+
+
+/*==============================================================================
+Grid
+==============================================================================*/
+
+.machine-grid{
+
+    display:grid;
+
+    grid-template-columns:
+
+        repeat(
+
+            auto-fill,
+
+            minmax(360px,1fr)
+
+        );
+
+    gap:24px;
+
+    align-items:start;
+
+}
+
+
+/*==============================================================================
+Machine card
+==============================================================================*/
+
+.machine-card{
+
+    display:flex;
+
+    flex-direction:column;
+
+    background:var(--card-background);
+
+    border:1px solid var(--card-border);
+
+    border-radius:var(--card-radius);
+
+    overflow:hidden;
+
+    cursor:pointer;
+
+    box-shadow:var(--card-shadow);
+
+    transition:
+
+        transform var(--card-transition),
+
+        box-shadow var(--card-transition),
+
+        border-color var(--card-transition);
+
+}
+
+.machine-card:hover{
+
+    transform:translateY(-4px);
+
+    border-color:#bfd7ff;
+
+    box-shadow:var(--card-shadow-hover);
+
+}
+
+
+/*==============================================================================
+Header
+==============================================================================*/
+
+.machine-card-header{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:6px;
+
+    padding:var(--card-padding);
+
+    border-bottom:1px solid #eef2f7;
+
+}
+
+.machine-model{
+
+    font-size:24px;
+
+    font-weight:700;
+
+    color:var(--color-text);
+
+    line-height:1.2;
+
+}
+
+.machine-manufacturer{
+
+    font-size:15px;
+
+    color:var(--color-text-light);
+
+    font-weight:500;
+
+}
+
+
+/*==============================================================================
+Body
+==============================================================================*/
+
+.machine-card-body{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:var(--card-gap);
+
+    padding:var(--card-padding);
+
+}
+
+
+/*==============================================================================
+Information rows
+==============================================================================*/
+
+.machine-info-row{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:flex-start;
+
+    gap:20px;
+
+    padding:8px 0;
+
+    border-bottom:1px solid #f1f5f9;
+
+}
+
+.machine-info-row:last-child{
+
+    border-bottom:none;
+
+}
+
+.machine-info-label{
+
+    flex:0 0 120px;
+
+    font-size:11px;
+
+    font-weight:700;
+
+    text-transform:uppercase;
+
+    letter-spacing:.08em;
+
+    color:var(--color-text-light);
+
+}
+
+.machine-info-value{
+
+    flex:1;
+
+    text-align:right;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    color:var(--color-text);
+
+}
+
+.machine-info-block{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:8px;
+
+}
+
+.machine-info-block .machine-info-label{
+
+    flex:none;
+
+    text-align:left;
+
+}
+
+.machine-info-block .machine-info-value{
+
+    text-align:left;
+
+}
+
+
+/*==============================================================================
+Separator
+==============================================================================*/
+
+.machine-divider{
+
+    width:100%;
+
+    height:1px;
+
+    background:#eef2f7;
+
+}
+
+
+/*==============================================================================
+Animation
+==============================================================================*/
+
+@keyframes cardAppear{
+
+    from{
+
+        opacity:0;
+
+        transform:
+            translateY(12px)
+            scale(.98);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:none;
+
+    }
+
+}
+
+.machine-card{
+
+    animation:
+
+        cardAppear
+
+        .28s
+
+        ease;
+
+}
+
+/*==============================================================================
+Technology badges
+==============================================================================*/
+
+.badge-group{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:8px;
+
+}
+
+.badge{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    min-height:28px;
+
+    padding:5px 12px;
+
+    border-radius:999px;
+
+    font-size:11px;
+
+    font-weight:700;
+
+    letter-spacing:.05em;
+
+    text-transform:uppercase;
+
+    white-space:nowrap;
+
+}
+
+/*==============================================================================
+Technology colors
+==============================================================================*/
+
+.badge-linac{
+
+    background:#dbeafe;
+
+    color:#1d4ed8;
+
+}
+
+.badge-c-arm{
+
+    background:#ede9fe;
+
+    color:#6d28d9;
+
+}
+
+.badge-ring{
+
+    background:#e5e7eb;
+
+    color:#374151;
+
+}
+
+.badge-robotic{
+
+    background:#fee2e2;
+
+    color:#b91c1c;
+
+}
+
+.badge-mr-linac{
+
+    background:#f3e8ff;
+
+    color:#7e22ce;
+
+}
+
+.badge-tomotherapy{
+
+    background:#cffafe;
+
+    color:#155e75;
+
+}
+
+.badge-proton{
+
+    background:#dcfce7;
+
+    color:#15803d;
+
+}
+
+.badge-carbon{
+
+    background:#fef3c7;
+
+    color:#92400e;
+
+}
+
+/*==============================================================================
+Energy section
+==============================================================================*/
+
+.machine-energy{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:8px;
+
+}
+
+.energy{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    min-height:30px;
+
+    padding:6px 10px;
+
+    border-radius:8px;
+
+    background:#eef2ff;
+
+    color:#3730a3;
+
+    font-size:12px;
+
+    font-weight:700;
+
+}
+
+/*==============================================================================
+Techniques
+==============================================================================*/
+
+.machine-techniques{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:8px;
+
+}
+
+.technique{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    min-height:28px;
+
+    padding:5px 10px;
+
+    border-radius:999px;
+
+    background:#f1f5f9;
+
+    color:#334155;
+
+    font-size:11px;
+
+    font-weight:700;
+
+}
+
+/*==============================================================================
+Imaging
+==============================================================================*/
+
+.machine-imaging{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:8px;
+
+}
+
+/*==============================================================================
+MLC
+==============================================================================*/
+
+.machine-mlc{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:4px;
+
+}
+
+.machine-mlc-model{
+
+    font-size:15px;
+
+    font-weight:700;
+
+    color:var(--color-text);
+
+}
+
+.machine-mlc-details{
+
+    font-size:13px;
+
+    color:var(--color-text-light);
+
+}
+
+/*==============================================================================
+Production
+==============================================================================*/
+
+.machine-production{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    font-size:14px;
+
+    font-weight:600;
+
+}
+
+.machine-production-current{
+
+    color:#16a34a;
+
+}
+
+.machine-production-ended{
+
+    color:#dc2626;
+
+}
+
+.machine-production-future{
+
+    color:#7c3aed;
+
+}
+
+.machine-production-prototype{
+
+    color:#d97706;
+
+}
+
+/*==============================================================================
+Selected card
+==============================================================================*/
+
+.machine-card.selected{
+
+    border-color:#2563eb;
+
+    box-shadow:
+        0 0 0 3px rgba(37,99,235,.12),
+        var(--card-shadow-hover);
+
+}
+
+/*==============================================================================
+Loading
+==============================================================================*/
+
+.machine-card.loading{
+
+    opacity:.5;
+
+    pointer-events:none;
+
+}
+
+/*==============================================================================
+Empty state
+==============================================================================*/
+
+.machine-empty{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    justify-content:center;
+
+    min-height:320px;
+
+    padding:48px;
+
+    text-align:center;
+
+    color:var(--color-text-light);
+
+}
+
+.machine-empty h2{
+
+    margin:0 0 12px;
+
+    font-size:22px;
+
+    color:var(--color-text);
+
+}
+
+.machine-empty p{
+
+    margin:0;
+
+    line-height:1.6;
+
+}
+
+/*==============================================================================
+Animations
+==============================================================================*/
+
+@keyframes cardAppear{
+
+    from{
+
+        opacity:0;
+
+        transform:
+            translateY(12px)
+            scale(.98);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:none;
+
+    }
+
+}
+
+.machine-card{
+
+    animation:cardAppear .25s ease;
+
+}
+
+/*==============================================================================
+Reduced motion
+==============================================================================*/
+
+@media (prefers-reduced-motion:reduce){
+
+    .machine-card{
+
+        animation:none;
+
+        transition:none;
+
+    }
+
+}
+
+/*==============================================================================
+Responsive
+==============================================================================*/
+
+@media (max-width:1200px){
+
+    .machine-grid{
+
+        grid-template-columns:
+
+            repeat(
+
+                auto-fill,
+
+                minmax(320px,1fr)
+
+            );
+
+    }
+
+}
+
+@media (max-width:900px){
+
+    .cards-container{
+
+        padding:18px;
+
+    }
+
+    .machine-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+@media (max-width:600px){
+
+    .cards-container{
+
+        padding:12px;
+
+    }
+
+    .machine-card-header{
+
+        padding:18px;
+
+    }
+
+    .machine-card-body{
+
+        padding:18px;
+
+    }
+
+    .machine-model{
+
+        font-size:20px;
+
+    }
+
+    .machine-info-row{
+
+        flex-direction:column;
+
+        gap:4px;
+
+    }
+
+    .machine-info-label{
+
+        flex:none;
+
+    }
+
+    .machine-info-value{
+
+        text-align:left;
+
+    }
+
+}
+
+/*==============================================================================
+Print
+==============================================================================*/
+
+@media print{
+
+    .cards-container{
+
+        padding:0;
+
+    }
+
+    .machine-grid{
+
+        display:block;
+
+    }
+
+    .machine-card{
+
+        break-inside:avoid;
+
+        margin-bottom:20px;
+
+        box-shadow:none;
+
+        border:1px solid #999;
+
+        animation:none;
+
+    }
+
+}
+
+/*==============================================================================
+End
+==============================================================================*/

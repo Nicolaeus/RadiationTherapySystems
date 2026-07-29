@@ -1,0 +1,38 @@
+{
+  "production_status": [
+    {
+      "id": "RESEARCH",
+      "label": "Research"
+    },
+    {
+      "id": "PRE_COMMERCIAL",
+      "label": "Pre-commercial"
+    },
+    {
+      "id": "IN_PRODUCTION",
+      "label": "In Production"
+    },
+    {
+      "id": "DISCONTINUED",
+      "label": "Discontinued"
+    }
+  ],
+  "support_status": [
+    {
+      "id": "FULL",
+      "label": "Full support"
+    },
+    {
+      "id": "LIMITED",
+      "label": "Limited support"
+    },
+    {
+      "id": "END_OF_SUPPORT",
+      "label": "End of support"
+    },
+    {
+      "id": "UNKNOWN",
+      "label": "Unknown"
+    }
+  ]
+}

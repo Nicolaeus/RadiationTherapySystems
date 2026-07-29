@@ -1,0 +1,400 @@
+/* ======================================================================
+   Radiotherapy Equipment Database
+   Badges
+   ====================================================================== */
+
+/* ======================================================================
+   BASE
+   ====================================================================== */
+
+.badge{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:6px;
+
+    padding:5px 12px;
+
+    border-radius:999px;
+
+    font-size:12px;
+
+    font-weight:600;
+
+    line-height:1;
+
+    border:1px solid transparent;
+
+    white-space:nowrap;
+
+    user-select:none;
+
+}
+
+/* ======================================================================
+   TECHNOLOGIES
+   ====================================================================== */
+
+.badge-linac{
+
+    background:#dbeafe;
+
+    color:#1d4ed8;
+
+}
+
+.badge-mr-linac{
+
+    background:#ede9fe;
+
+    color:#6d28d9;
+
+}
+
+.badge-proton{
+
+    background:#dcfce7;
+
+    color:#15803d;
+
+}
+
+.badge-carbon{
+
+    background:#fde68a;
+
+    color:#92400e;
+
+}
+
+.badge-iort{
+
+    background:#fce7f3;
+
+    color:#be185d;
+
+}
+
+.badge-flash{
+
+    background:#fee2e2;
+
+    color:#b91c1c;
+
+}
+
+.badge-tomotherapy{
+
+    background:#cffafe;
+
+    color:#155e75;
+
+}
+
+.badge-robotic{
+
+    background:#e0f2fe;
+
+    color:#0369a1;
+
+}
+
+/* ======================================================================
+   PRODUCTION STATUS
+   ====================================================================== */
+
+.badge-production{
+
+    background:#dcfce7;
+
+    color:#15803d;
+
+}
+
+.badge-discontinued{
+
+    background:#e5e7eb;
+
+    color:#4b5563;
+
+}
+
+.badge-prototype{
+
+    background:#fef3c7;
+
+    color:#b45309;
+
+}
+
+.badge-research{
+
+    background:#f3f4f6;
+
+    color:#6b7280;
+
+}
+
+.badge-pre-commercial{
+
+    background:#fde68a;
+
+    color:#92400e;
+
+}
+
+/* ======================================================================
+   VALIDATION
+   ====================================================================== */
+
+.badge-confirmed{
+
+    background:#dcfce7;
+
+    color:#166534;
+
+}
+
+.badge-precommercial{
+
+    background:#fef3c7;
+
+    color:#a16207;
+
+}
+
+.badge-validation-research{
+
+    background:#f3f4f6;
+
+    color:#4b5563;
+
+}
+
+.badge-validation-prototype{
+
+    background:#fee2e2;
+
+    color:#991b1b;
+
+}
+
+/* ======================================================================
+   BOOLEAN
+   ====================================================================== */
+
+.badge-yes{
+
+    background:#dcfce7;
+
+    color:#166534;
+
+}
+
+.badge-no{
+
+    background:#fee2e2;
+
+    color:#b91c1c;
+
+}
+
+/* ======================================================================
+   MACHINE GENERATION
+   ====================================================================== */
+
+.badge-generation{
+
+    background:#eff6ff;
+
+    color:#1d4ed8;
+
+}
+
+/* ======================================================================
+   DICOM
+   ====================================================================== */
+
+.badge-dicom{
+
+    background:#dbeafe;
+
+    color:#1e40af;
+
+}
+
+/* ======================================================================
+   COUNTRY
+   ====================================================================== */
+
+.badge-country{
+
+    background:#f8fafc;
+
+    border:1px solid var(--color-border);
+
+    color:var(--color-text);
+
+}
+
+/* ======================================================================
+   ENERGY
+   ====================================================================== */
+
+.badge-energy{
+
+    background:#eef2ff;
+
+    color:#4338ca;
+
+}
+
+/* ======================================================================
+   TECHNIQUES
+   ====================================================================== */
+
+.badge-technique{
+
+    background:#ecfeff;
+
+    color:#155e75;
+
+}
+
+/* ======================================================================
+   MLC
+   ====================================================================== */
+
+.badge-mlc{
+
+    background:#f3e8ff;
+
+    color:#7e22ce;
+
+}
+
+/* ======================================================================
+   FILTER CHIP
+   ====================================================================== */
+
+.filter-chip{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:6px;
+
+    padding:8px 14px;
+
+    border-radius:999px;
+
+    border:1px solid var(--color-border);
+
+    background:white;
+
+    cursor:pointer;
+
+    transition:.15s;
+
+}
+
+.filter-chip:hover{
+
+    background:#f8fafc;
+
+}
+
+.filter-chip.active{
+
+    background:var(--color-primary);
+
+    color:white;
+
+    border-color:var(--color-primary);
+
+}
+
+/* ======================================================================
+   SMALL STATUS DOT
+   ====================================================================== */
+
+.status-dot{
+
+    width:10px;
+
+    height:10px;
+
+    border-radius:50%;
+
+    display:inline-block;
+
+}
+
+.status-dot.green{
+
+    background:#22c55e;
+
+}
+
+.status-dot.red{
+
+    background:#ef4444;
+
+}
+
+.status-dot.orange{
+
+    background:#f59e0b;
+
+}
+
+.status-dot.gray{
+
+    background:#94a3b8;
+
+}
+
+/* ======================================================================
+   ICON BADGE
+   ====================================================================== */
+
+.icon-badge{
+
+    width:34px;
+
+    height:34px;
+
+    display:inline-flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    border-radius:50%;
+
+    background:#f8fafc;
+
+    border:1px solid var(--color-border);
+
+}
+
+/* ======================================================================
+   WRAPPER
+   ====================================================================== */
+
+.badge-group{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:8px;
+
+    align-items:center;
+
+}

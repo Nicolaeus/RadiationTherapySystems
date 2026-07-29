@@ -1,0 +1,142 @@
+[
+    {
+        "id": "TOSHIBA_CI1000",
+        "manufacturer": "Toshiba Energy Systems & Solutions",
+        "manufacturer_country": "Japan",
+        "model": "CI-1000",
+        "aliases": [
+            "Heavy Ion Therapy CI-1000",
+            "Toshiba CI-1000"
+        ],
+        "family": "Heavy Ion Therapy",
+        "series": "CI",
+        "generation": "1",
+        "machine_type": "Multi-Room Carbon Ion Therapy System",
+        "technology": {
+            "type": "CARBON",
+            "c_arm": false,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": true
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Passive / Pencil Beam Scanning",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": true,
+            "kv": true,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": true,
+            "adaptive": false,
+            "gating": true,
+            "tracking": true
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2016,
+        "installation_end": null,
+        "production_status": "In Production",
+        "support_status": null,
+        "successor": "CI-1000S",
+        "notes": "Premier système commercial Toshiba de carbothérapie. Développé avec QST/NIRS. Disponible avec salles à faisceau fixe et gantry rotatif supraconducteur."
+    },
+    {
+        "id": "TOSHIBA_CI1000S",
+        "manufacturer": "Toshiba Energy Systems & Solutions",
+        "manufacturer_country": "Japan",
+        "model": "CI-1000S",
+        "aliases": [
+            "Heavy Ion Therapy CI-1000S",
+            "Toshiba CI-1000S"
+        ],
+        "family": "Heavy Ion Therapy",
+        "series": "CI",
+        "generation": "2",
+        "machine_type": "Advanced Carbon Ion Therapy System",
+        "technology": {
+            "type": "CARBON",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": true
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "High-Speed Pencil Beam Scanning",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": true,
+            "kv": true,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": true,
+            "adaptive": false,
+            "gating": true,
+            "tracking": true
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2022,
+        "installation_end": null,
+        "production_status": "In Production",
+        "support_status": null,
+        "successor": "",
+        "notes": "Version de seconde génération intégrant le gantry supraconducteur compact, le balayage rapide (high-speed PBS) et des configurations fixes ou rotatives."
+    }
+]

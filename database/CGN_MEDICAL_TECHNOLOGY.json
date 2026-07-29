@@ -1,0 +1,74 @@
+[
+    {
+        "id": "CGN_HEZHI",
+        "manufacturer": "CGN Medical Technology",
+        "manufacturer_country": "China",
+        "model": "HeZhi",
+        "aliases": [
+            "HeZhi",
+            "和质",
+            "和质®",
+            "HeZhi Proton Therapy System"
+        ],
+        "family": "HeZhi",
+        "series": "",
+        "generation": "1",
+        "machine_type": "Scalable Proton Therapy System",
+        "technology": {
+            "type": "PROTON",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": true,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Pencil Beam Scanning",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": true,
+            "kv": true,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": true,
+            "adaptive": true,
+            "gating": true,
+            "tracking": false
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2024,
+        "installation_end": null,
+        "production_status": "In Production",
+        "support_status": null,
+        "successor": "",
+        "notes": "Plateforme chinoise modulaire de protonthérapie développée par CGN Medical Technology. Disponible en configuration évolutive '1+N' avec une ou plusieurs salles de traitement, gantry 360°, Pencil Beam Scanning, spot de 3 mm, champ maximal de 30 × 40 cm et feuille de route comprenant l'imagerie multimodale, la radiothérapie adaptative, les traitements en arc et les applications FLASH."
+    }
+]

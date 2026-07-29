@@ -1,0 +1,75 @@
+[
+    {
+        "id": "ZAP_ZAP_X",
+        "manufacturer": "ZAP Surgical",
+        "manufacturer_country": "United States",
+        "model": "ZAP-X",
+        "aliases": [
+            "ZAP-X",
+            "ZAP-X Gyroscopic Radiosurgery",
+            "Gyroscopic Radiosurgery"
+        ],
+        "family": "ZAP-X",
+        "series": "",
+        "generation": "1",
+        "machine_type": "Dedicated Cranial Radiosurgery System",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": false,
+            "ring_gantry": false,
+            "robotic": true,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "3FFF"
+            ],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": true,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": 1500
+            }
+        },
+        "mlc": {
+            "model": "Rotating tungsten collimator wheel",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Circular collimators",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": true,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": false,
+            "vmat": false,
+            "srs": true,
+            "srt": true,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": true
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2019,
+        "installation_end": null,
+        "production_status": "In Production",
+        "support_status": null,
+        "successor": "",
+        "notes": "Système dédié à la radiochirurgie intracrânienne utilisant un LINAC S-band 3 MV FFF monté sur deux axes gyroscopiques. Auto-blindé, ne nécessitant pas de bunker. Huit collimateurs circulaires fixes de 4 à 25 mm."
+    }
+]

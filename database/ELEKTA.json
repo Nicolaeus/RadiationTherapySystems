@@ -1,0 +1,1131 @@
+[
+    {
+        "id": "ELEKTA_SL75",
+        "manufacturer": "Elekta",
+        "manufacturer_country": "Sweden",
+        "model": "SL75",
+        "aliases": [
+            "SL75",
+            "SL 75"
+        ],
+        "family": "SL",
+        "series": "SL",
+        "generation": "75",
+        "machine_type": "C-arm LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6X"
+            ],
+            "electron_energies": [
+                "6E",
+                "9E",
+                "12E",
+                "15E",
+                "18E"
+            ],
+            "flattening_filter": true,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": 600,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": true
+        },
+        "jaw": {
+            "type": "Secondary jaws",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": true,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": false,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": true,
+        "installation_start": 1987,
+        "installation_end": 1995,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "SLi",
+        "notes": "Première génération d'accélérateurs Elekta SL."
+    },
+    {
+        "id": "ELEKTA_SLI",
+        "manufacturer": "Elekta",
+        "manufacturer_country": "Sweden",
+        "model": "SLi",
+        "aliases": [
+            "SLI",
+            "SLi",
+            "SL i"
+        ],
+        "family": "SL",
+        "series": "SLi",
+        "generation": "",
+        "machine_type": "C-arm LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6X",
+                "10X",
+                "18X"
+            ],
+            "electron_energies": [
+                "4E",
+                "6E",
+                "8E",
+                "10E",
+                "12E",
+                "15E",
+                "18E",
+                "21E"
+            ],
+            "flattening_filter": true,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": 600,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "MLCi",
+            "leaves": 80,
+            "leaf_width_mm": 10,
+            "optional": true
+        },
+        "jaw": {
+            "type": "Secondary jaws",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": true,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": true,
+            "vmat": false,
+            "srs": false,
+            "srt": true,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": true,
+        "installation_start": 1994,
+        "installation_end": 2002,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "Precise",
+        "notes": "Première génération Elekta compatible MLCi."
+    },
+    {
+        "id": "ELEKTA_PRECISE",
+        "manufacturer": "Elekta",
+        "manufacturer_country": "Sweden",
+        "model": "Precise",
+        "aliases": [
+            "PRECISE",
+            "Precise"
+        ],
+        "family": "Precise",
+        "series": "Precise",
+        "generation": "",
+        "machine_type": "C-arm LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6X",
+                "10X",
+                "15X",
+                "18X"
+            ],
+            "electron_energies": [
+                "4E",
+                "6E",
+                "8E",
+                "10E",
+                "12E",
+                "15E",
+                "18E",
+                "21E"
+            ],
+            "flattening_filter": true,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": 600,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "MLCi",
+            "leaves": 80,
+            "leaf_width_mm": 10,
+            "optional": true
+        },
+        "jaw": {
+            "type": "Secondary jaws",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": true,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": true,
+            "vmat": false,
+            "srs": false,
+            "srt": true,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": true,
+        "installation_start": 2001,
+        "installation_end": 2007,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "Synergy",
+        "notes": "Plateforme numérique ayant succédé aux accélérateurs SLi."
+    },
+    {
+        "id": "ELEKTA_SYNERGY",
+        "manufacturer": "Elekta",
+        "manufacturer_country": "Sweden",
+        "model": "Synergy",
+        "aliases": [
+            "SYNERGY",
+            "Synergy",
+            "Synergy Platform"
+        ],
+        "family": "Synergy",
+        "series": "Synergy",
+        "generation": "",
+        "machine_type": "Image-guided C-arm LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6X",
+                "10X",
+                "15X",
+                "18X"
+            ],
+            "electron_energies": [
+                "4E",
+                "6E",
+                "8E",
+                "10E",
+                "12E",
+                "15E",
+                "18E",
+                "21E"
+            ],
+            "flattening_filter": true,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": 600,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "MLCi2",
+            "leaves": 80,
+            "leaf_width_mm": 10,
+            "optional": true
+        },
+        "jaw": {
+            "type": "Backup jaws",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": true,
+            "kv": true,
+            "mv": true,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": true,
+            "srs": true,
+            "srt": true,
+            "sbrt": true,
+            "adaptive": false,
+            "gating": true,
+            "tracking": false
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2004,
+        "installation_end": 2013,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "Versa HD",
+        "notes": "Première plateforme Elekta intégrant XVI (X-ray Volume Imaging) et Cone Beam CT."
+    },
+    {
+        "id": "ELEKTA_SYNERGY_S",
+        "manufacturer": "Elekta",
+        "manufacturer_country": "Sweden",
+        "model": "Synergy S",
+        "aliases": [
+            "SYNERGY S",
+            "Synergy S"
+        ],
+        "family": "Synergy",
+        "series": "Synergy S",
+        "generation": "",
+        "machine_type": "Stereotactic C-arm LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6X"
+            ],
+            "electron_energies": [],
+            "flattening_filter": true,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": 1000,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "Beam Modulator",
+            "leaves": 40,
+            "leaf_width_mm": 4,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Backup jaws",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": true,
+            "kv": true,
+            "mv": true,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": false,
+            "srs": true,
+            "srt": true,
+            "sbrt": true,
+            "adaptive": false,
+            "gating": true,
+            "tracking": false
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2005,
+        "installation_end": 2013,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "Versa HD",
+        "notes": "Plateforme dédiée à la radiochirurgie utilisant le Beam Modulator 4 mm."
+    },
+    {
+        "id": "ELEKTA_INFINITY",
+        "manufacturer": "Elekta",
+        "manufacturer_country": "Sweden",
+        "model": "Infinity",
+        "aliases": [
+            "INFINITY",
+            "Infinity"
+        ],
+        "family": "Infinity",
+        "series": "Infinity",
+        "generation": "",
+        "machine_type": "Image-guided C-arm LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6X",
+                "10X",
+                "15X",
+                "18X"
+            ],
+            "electron_energies": [
+                "4E",
+                "6E",
+                "8E",
+                "10E",
+                "12E",
+                "15E",
+                "18E",
+                "21E"
+            ],
+            "flattening_filter": true,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": 600,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "Agility",
+            "leaves": 160,
+            "leaf_width_mm": 5,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Jawless (Agility)",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": true,
+            "kv": true,
+            "mv": true,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": true,
+            "srs": true,
+            "srt": true,
+            "sbrt": true,
+            "adaptive": false,
+            "gating": true,
+            "tracking": false
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2009,
+        "installation_end": null,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "Versa HD",
+        "notes": "Première plateforme Elekta équipée du collimateur Agility 160 lames."
+    },
+    {
+        "id": "ELEKTA_VERSA_HD",
+        "manufacturer": "Elekta",
+        "manufacturer_country": "Sweden",
+        "model": "Versa HD",
+        "aliases": [
+            "VERSA HD",
+            "VersaHD",
+            "Versa HD"
+        ],
+        "family": "Versa",
+        "series": "HD",
+        "generation": "1",
+        "machine_type": "Image-guided C-arm LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6X",
+                "6FFF",
+                "10X",
+                "10FFF",
+                "15X"
+            ],
+            "electron_energies": [
+                "4E",
+                "6E",
+                "8E",
+                "10E",
+                "12E",
+                "15E",
+                "18E",
+                "22E"
+            ],
+            "flattening_filter": true,
+            "fff": true,
+            "dose_rate": {
+                "standard_mu_min": 600,
+                "fff_mu_min": 2400
+            }
+        },
+        "mlc": {
+            "model": "Agility",
+            "leaves": 160,
+            "leaf_width_mm": 5,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Jawless (Agility)",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": true,
+            "kv": true,
+            "mv": true,
+            "surface_guidance": true
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": true,
+            "srs": true,
+            "srt": true,
+            "sbrt": true,
+            "adaptive": false,
+            "gating": true,
+            "tracking": false
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2013,
+        "installation_end": null,
+        "production_status": "Active",
+        "support_status": null,
+        "successor": "",
+        "notes": "Plateforme haut de gamme Elekta destinée notamment aux traitements stéréotaxiques."
+    },
+    {
+        "id": "ELEKTA_UNITY",
+        "manufacturer": "Elekta",
+        "manufacturer_country": "Sweden",
+        "model": "Unity",
+        "aliases": [
+            "UNITY",
+            "Unity",
+            "MR-Linac Unity",
+            "Elekta Unity"
+        ],
+        "family": "Unity",
+        "series": "Unity",
+        "generation": "1",
+        "machine_type": "MR-guided LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": false,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": true,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "7FFF"
+            ],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": true,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": 425
+            }
+        },
+        "mlc": {
+            "model": "Agility",
+            "leaves": 160,
+            "leaf_width_mm": 7,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Jawless (Agility)",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": false,
+            "srs": false,
+            "srt": true,
+            "sbrt": true,
+            "adaptive": true,
+            "gating": true,
+            "tracking": true
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": 2018,
+        "installation_end": null,
+        "production_status": "Active",
+        "support_status": null,
+        "successor": "",
+        "notes": "MR-Linac intégrant un IRM 1,5 T permettant l'adaptation quotidienne du traitement (online adaptive radiotherapy)."
+    },
+    {
+        "id": "ELEKTA_COMPACT",
+        "manufacturer": "Elekta",
+        "manufacturer_country": "Sweden",
+        "model": "Compact",
+        "aliases": [
+            "COMPACT",
+            "Compact",
+            "Compact LINAC"
+        ],
+        "family": "Compact",
+        "series": "Compact",
+        "generation": "1",
+        "machine_type": "C-arm LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6X"
+            ],
+            "electron_energies": [
+                "6E",
+                "9E",
+                "12E",
+                "15E"
+            ],
+            "flattening_filter": true,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": 300,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "MLCi",
+            "leaves": 80,
+            "leaf_width_mm": 10,
+            "optional": true
+        },
+        "jaw": {
+            "type": "Secondary jaws",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": true,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": true,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": true,
+        "installation_start": 1998,
+        "installation_end": 2006,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "Precise",
+        "notes": "Version économique de la gamme Elekta destinée aux traitements conventionnels."
+    },
+    {
+        "id": "ELEKTA_COMPACT_PLUS",
+        "manufacturer": "Elekta",
+        "manufacturer_country": "Sweden",
+        "model": "Compact Plus",
+        "aliases": [
+            "COMPACT PLUS",
+            "Compact Plus"
+        ],
+        "family": "Compact",
+        "series": "Plus",
+        "generation": "2",
+        "machine_type": "C-arm LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6X",
+                "10X"
+            ],
+            "electron_energies": [
+                "6E",
+                "9E",
+                "12E",
+                "15E",
+                "18E"
+            ],
+            "flattening_filter": true,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": 600,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "MLCi",
+            "leaves": 80,
+            "leaf_width_mm": 10,
+            "optional": true
+        },
+        "jaw": {
+            "type": "Secondary jaws",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": true,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": true,
+            "vmat": false,
+            "srs": false,
+            "srt": true,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": true,
+        "installation_start": 2002,
+        "installation_end": 2008,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "Synergy",
+        "notes": "Évolution du Compact avec davantage d'options cliniques."
+    },
+    {
+        "id": "ELEKTA_SL15",
+        "manufacturer": "Elekta",
+        "manufacturer_country": "Sweden",
+        "model": "SL15",
+        "aliases": [
+            "SL15",
+            "SL 15"
+        ],
+        "family": "SL",
+        "series": "SL",
+        "generation": "15",
+        "machine_type": "C-arm LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6X",
+                "15X"
+            ],
+            "electron_energies": [
+                "4E",
+                "6E",
+                "8E",
+                "10E",
+                "12E",
+                "15E"
+            ],
+            "flattening_filter": true,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": 600,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": true
+        },
+        "jaw": {
+            "type": "Secondary jaws",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": true,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": false,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": true,
+        "installation_start": 1988,
+        "installation_end": 1995,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "SLi",
+        "notes": "Version intermédiaire de la gamme SL."
+    },
+    {
+        "id": "ELEKTA_SL18",
+        "manufacturer": "Elekta",
+        "manufacturer_country": "Sweden",
+        "model": "SL18",
+        "aliases": [
+            "SL18",
+            "SL 18"
+        ],
+        "family": "SL",
+        "series": "SL",
+        "generation": "18",
+        "machine_type": "C-arm LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6X",
+                "18X"
+            ],
+            "electron_energies": [
+                "4E",
+                "6E",
+                "8E",
+                "10E",
+                "12E",
+                "15E",
+                "18E"
+            ],
+            "flattening_filter": true,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": 600,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": true
+        },
+        "jaw": {
+            "type": "Secondary jaws",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": true,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": false,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": true,
+        "installation_start": 1988,
+        "installation_end": 1995,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "SLi",
+        "notes": "Version 18 MV de la plateforme SL."
+    },
+    {
+        "id": "ELEKTA_SL20",
+        "manufacturer": "Elekta",
+        "manufacturer_country": "Sweden",
+        "model": "SL20",
+        "aliases": [
+            "SL20",
+            "SL 20"
+        ],
+        "family": "SL",
+        "series": "SL",
+        "generation": "20",
+        "machine_type": "C-arm LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6X",
+                "20X"
+            ],
+            "electron_energies": [
+                "4E",
+                "6E",
+                "8E",
+                "10E",
+                "12E",
+                "15E",
+                "18E",
+                "20E"
+            ],
+            "flattening_filter": true,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": 600,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": true
+        },
+        "jaw": {
+            "type": "Secondary jaws",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": true,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": false,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": true,
+        "installation_start": 1988,
+        "installation_end": 1996,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "SLi",
+        "notes": "Architecture identique au SL25 avec des énergies maximales plus faibles."
+    },
+    {
+        "id": "ELEKTA_SL25",
+        "manufacturer": "Elekta",
+        "manufacturer_country": "Sweden",
+        "model": "SL25",
+        "aliases": [
+            "SL25",
+            "SL 25"
+        ],
+        "family": "SL",
+        "series": "SL",
+        "generation": "25",
+        "machine_type": "C-arm LINAC",
+        "technology": {
+            "type": "LINAC",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [
+                "6X",
+                "25X"
+            ],
+            "electron_energies": [
+                "4E",
+                "6E",
+                "8E",
+                "10E",
+                "12E",
+                "15E",
+                "18E",
+                "22E"
+            ],
+            "flattening_filter": true,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": 600,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": true
+        },
+        "jaw": {
+            "type": "Secondary jaws",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": true,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": false,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": true,
+        "installation_start": 1988,
+        "installation_end": 1996,
+        "production_status": "Discontinued",
+        "support_status": null,
+        "successor": "SLi",
+        "notes": "Modèle le plus énergétique de la gamme SL historique."
+    }
+]

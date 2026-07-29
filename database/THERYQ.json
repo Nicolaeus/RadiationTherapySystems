@@ -1,0 +1,216 @@
+[
+    {
+        "id": "THERYQ_FLASHKNIFE",
+        "manufacturer": "THERYQ",
+        "manufacturer_country": "France",
+        "model": "FLASHKNiFE",
+        "aliases": [
+            "FLASHKNiFE",
+            "FLASHKNiFE™"
+        ],
+        "family": "FLASH",
+        "series": "",
+        "generation": "1",
+        "machine_type": "FLASH Electron Radiotherapy System",
+        "technology": {
+            "type": "ELECTRON",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "confirmed",
+        "beam": {
+            "photon_energies": [],
+            "electron_energies": [],
+            "flattening_filter": false,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Electron Applicator",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": false,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": true,
+        "installation_start": 2025,
+        "installation_end": null,
+        "production_status": "In Production",
+        "support_status": null,
+        "successor": "",
+        "notes": "Système clinique dédié à la radiothérapie FLASH par électrons pour le traitement des tumeurs superficielles. Développé par THERYQ (groupe ALCEN). Conçu pour délivrer des irradiations à ultra-haut débit de dose conformément au concept FLASH. Première plateforme commerciale de la société ; les plateformes FLASHDEEP et FLASHLAB ne font pas partie de la gamme clinique commercialisée."
+    },
+    {
+        "id": "THERYQ_FLASHDEEP",
+        "manufacturer": "THERYQ",
+        "manufacturer_country": "France",
+        "model": "FLASHDEEP",
+        "aliases": [
+            "FLASHDEEP",
+            "FLASHDEEP™"
+        ],
+        "family": "FLASH",
+        "series": "",
+        "generation": "1",
+        "machine_type": "Very High Energy Electron (VHEE) FLASH Radiotherapy System",
+        "technology": {
+            "type": "ELECTRON",
+            "c_arm": true,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "pre-commercial",
+        "beam": {
+            "photon_energies": [],
+            "electron_energies": [
+                "100-200 MeV"
+            ],
+            "flattening_filter": false,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Dynamic Beam Collimation",
+            "dynamic": true
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": true,
+            "imrt": true,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": true,
+            "adaptive": true,
+            "gating": true,
+            "tracking": true
+        },
+        "six_dof_couch": true,
+        "dicom_rt": true,
+        "installation_start": null,
+        "installation_end": null,
+        "production_status": "Pre-Commercial",
+        "support_status": null,
+        "successor": "",
+        "notes": "Projet de système VHEE-FLASH utilisant un accélérateur linéaire compact de 100 à 200 MeV pour le traitement des tumeurs profondes jusqu'à environ 20 cm. Développé avec Gustave Roussy dans le cadre du programme France 2030. Le constructeur indique explicitement que le dispositif n'est pas commercialisé et n'est pas autorisé à la vente."
+    },
+    {
+        "id": "THERYQ_FLASHLAB",
+        "manufacturer": "THERYQ",
+        "manufacturer_country": "France",
+        "model": "FLASHLAB",
+        "aliases": [
+            "FLASHLAB",
+            "FLASHLAB™"
+        ],
+        "family": "FLASH",
+        "series": "",
+        "generation": "1",
+        "machine_type": "FLASH Radiobiology Research Irradiator",
+        "technology": {
+            "type": "ELECTRON",
+            "c_arm": false,
+            "ring_gantry": false,
+            "robotic": false,
+            "mr_linac": false,
+            "tomotherapy": false,
+            "proton": false,
+            "carbon": false
+        },
+        "validation": "research",
+        "beam": {
+            "photon_energies": [],
+            "electron_energies": [
+                "7 MeV"
+            ],
+            "flattening_filter": false,
+            "fff": false,
+            "dose_rate": {
+                "standard_mu_min": null,
+                "fff_mu_min": null
+            }
+        },
+        "mlc": {
+            "model": "",
+            "leaves": null,
+            "leaf_width_mm": null,
+            "optional": false
+        },
+        "jaw": {
+            "type": "Research Applicator",
+            "dynamic": false
+        },
+        "imaging": {
+            "cbct": false,
+            "kv": false,
+            "mv": false,
+            "surface_guidance": false
+        },
+        "techniques": {
+            "igrt": false,
+            "imrt": false,
+            "vmat": false,
+            "srs": false,
+            "srt": false,
+            "sbrt": false,
+            "adaptive": false,
+            "gating": false,
+            "tracking": false
+        },
+        "six_dof_couch": false,
+        "dicom_rt": false,
+        "installation_start": 2025,
+        "installation_end": null,
+        "production_status": "Research",
+        "support_status": null,
+        "successor": "",
+        "notes": "Plateforme compacte de recherche en radiobiologie FLASH destinée à l'irradiation de cellules, organoïdes et petits animaux. Basée sur un accélérateur linéaire de 7 MeV délivrant des débits de dose supérieurs à 300 Gy/s. Non destinée à un usage clinique."
+    }
+]
