@@ -1,0 +1,152 @@
+===============================================================================
+                           ACCELERATOR VIEWER
+                 Radiotherapy Equipment Database
+===============================================================================
+
+Version : 1.0
+Auteur  : N. N.
+Licence : Usage interne / Recherche
+
+-------------------------------------------------------------------------------
+PRESENTATION
+-------------------------------------------------------------------------------
+
+Accelerator Viewer est une application permettant de consulter, comparer et
+administrer une base de données des équipements utilisés en radiothérapie.
+
+L'application est entièrement autonome et ne nécessite aucune connexion
+Internet pour fonctionner.
+
+Principales fonctionnalités :
+
+ • Consultation des accélérateurs de radiothérapie
+ • Recherche rapide d'un équipement
+ • Visualisation des caractéristiques techniques
+ • Affichage des techniques cliniques supportées
+ • Gestion des systèmes d'imagerie
+ • Consultation des informations sur les faisceaux
+ • Gestion des collimateurs multilames (MLC)
+ • Affichage des photographies des équipements
+ • Modification des photographies
+ • Comparaison de plusieurs accélérateurs
+ • Tableau de bord statistique
+
+Les données sont stockées au format JSON afin d'être facilement modifiables
+et pérennes.
+
+-------------------------------------------------------------------------------
+CONFIGURATION REQUISE
+-------------------------------------------------------------------------------
+
+Cette application est fournie avec une version portable de PHP.
+
+Aucune installation de PHP, XAMPP ou WampServer n'est nécessaire.
+
+Systèmes compatibles :
+
+ • Windows 10
+ • Windows 11
+
+Navigateur recommandé :
+
+ • Microsoft Edge
+ • Google Chrome
+ • Mozilla Firefox
+
+-------------------------------------------------------------------------------
+DEMARRAGE
+-------------------------------------------------------------------------------
+
+1. Décompressez entièrement l'archive ZIP.
+
+2. Ouvrez le dossier :
+
+       Accelerator_Viewer
+
+3. Double-cliquez sur :
+
+       lancer.bat
+
+4. Une fenêtre s'ouvre automatiquement.
+
+5. Votre navigateur Internet démarre et ouvre l'application.
+
+Adresse de l'application :
+
+       http://127.0.0.1:8000
+
+-------------------------------------------------------------------------------
+ARRET DE L'APPLICATION
+-------------------------------------------------------------------------------
+
+Deux possibilités :
+
+ • Fermer la fenêtre du serveur.
+
+ou
+
+ • Exécuter le fichier :
+
+       arreter.bat
+
+-------------------------------------------------------------------------------
+ORGANISATION DU DOSSIER
+-------------------------------------------------------------------------------
+
+Accelerator_Viewer
+
+│
+├── lancer.bat
+├── arreter.bat
+├── LISEZ-MOI.txt
+│
+└── app
+    ├── api
+    ├── assets
+    ├── config
+    ├── css
+    ├── database
+    ├── js
+    ├── logs
+    ├── php
+    ├── schema
+    └── index.php
+
+-------------------------------------------------------------------------------
+DONNEES
+-------------------------------------------------------------------------------
+
+Les équipements sont décrits dans le dossier :
+
+       app/database/
+
+Chaque constructeur possède son propre fichier JSON.
+
+Le schéma de validation est disponible dans :
+
+       app/schema/
+
+-------------------------------------------------------------------------------
+JOURNAUX
+-------------------------------------------------------------------------------
+
+Les journaux du serveur PHP sont enregistrés dans :
+
+       app/logs/
+
+-------------------------------------------------------------------------------
+AVERTISSEMENT
+-------------------------------------------------------------------------------
+
+Les informations contenues dans cette base sont fournies à titre informatif.
+
+L'utilisateur demeure responsable de la vérification des caractéristiques
+techniques des équipements auprès des documentations officielles des
+constructeurs.
+
+Cette application ne doit pas être utilisée comme unique source de référence
+pour des activités cliniques ou réglementaires.
+
+-------------------------------------------------------------------------------
+BONNE UTILISATION !
+-------------------------------------------------------------------------------
